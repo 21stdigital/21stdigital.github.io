@@ -1,0 +1,10 @@
+# Site settings
+title: 21st digital
+email: hello@21stdigital.de
+description: "we build software that matters"
+baseurl: ""
+url: "http://21stdigital.de"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
