@@ -1,58 +1,107 @@
 /* Base */
 /* ----------------------------------------------------------*/
 
-html, body{height:100%; margin:0;padding:0}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+}
 
 h1 {
 	font-weight: bold;
 	letter-spacing: -1px;
-	font-size: 80px;
 }
 
-.container-fluid{
-  height:100%;
-  display:table;
-  width: 100%;
-  padding: 0;
+a {
+    color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
-.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
-
-.centering {
-  float:none;
-  margin:0 auto;
+a:hover,
+a:focus {
+    text-decoration: none;
 }
 
-
-
-/* Utility */
-
+video {
+	display: block;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
-/* Site header */
+/* bootstrap */
 
+.lead {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 300;
+}
 
-/* Site footer */
+/* video */
 
-/* Page Content styles */
-/* ----------------------------------------------------------*/
+video#video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	/*background: url(polina.jpg) no-repeat; */
+	background-size: cover;
+	opacity: 0.5;
+	-webkit-filter: blur(1px);
+  	-moz-filter: blur(1px);
+  	-o-filter: blur(1px);
+  	-ms-filter: blur(1px);
+  	filter: blur(1px);
+}
 
+.navbar-brand h1 {
+	font-size: 25px;
+	font-weight: 700;
+}
 
-/* Home styles */
-/* ----------------------------------------------------------*/
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: left;
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
+.intro-body {	
+	display: table-cell;
+	vertical-align: bottom;
+	padding-bottom: 10px;
+}
 
-/* Post styles */
-/* ----------------------------------------------------------*/
+.brand-heading {
+    font-size: 40px;
+}
 
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
 
-/* Syntax highlighting styles */
-/* ----------------------------------------------------------*/
+    .brand-heading {
+        font-size: 60px;
+    }
 
-
-/* media queries */
-/* ----------------------------------------------------------*/
-
-
+    .intro-text {
+        font-size: 25px;
+    }
+}

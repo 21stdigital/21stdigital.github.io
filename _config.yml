@@ -1,9 +1,10 @@
 # Site settings
 title: 21st digital
 email: hello@21stdigital.de
-description: "we build software that matters"
+description: ""
 baseurl: ""
 url: "http://21stdigital.de"
+author: 21st digital GmbH
 
 # Build settings
 markdown: kramdown
