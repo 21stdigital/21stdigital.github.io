@@ -1,11 +1,15 @@
 # Site settings
-title: 21st digital
+title: "21st digital | we build software that matters"
 email: hello@21stdigital.de
 description: ""
 baseurl: ""
-url: "http://21stdigital.de"
-author: 21st digital GmbH
+url: "http://www.21stdigital.de"
+author: "21st digital GmbH"
+
+intro_heading: "Information overload?"
+intro_copy: "Wir entwickeln einfache und ästhetische Software für den Mobile- und Web-Bereich"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude: CNAME, Gemfile, Gemfile.lock
