@@ -12,4 +12,4 @@ intro_copy: "Wir entwickeln einfache und ästhetische Software für den Mobile- 
 # Build settings
 markdown: kramdown
 permalink: pretty
-exclude: CNAME, Gemfile, Gemfile.lock
+exclude: [CNAME, Gemfile, Gemfile.lock]
