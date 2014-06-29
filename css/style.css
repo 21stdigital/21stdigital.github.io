@@ -1,5 +1,7 @@
 /* video */
 
+
+
 video#video {
   position:absolute;
   right: 0;
@@ -9,6 +11,19 @@ video#video {
   width: auto;
   height: auto;
   background: url(/assets/images/poster.jpg) no-repeat;
+  background-size: cover;
+}
+
+#background {
+  background: url(/assets/images/poster.jpg) center center no-repeat;
+  opacity: 0.0;
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
   background-size: cover;
 }
 
@@ -83,5 +98,9 @@ video#video {
 
   #parallax-home .next-section {
     bottom: 95px;
+  }
+
+  #background {
+    opacity: 1.0;
   }
 }
