@@ -1,7 +1,4 @@
 /* video */
-
-
-
 video#video {
   position:absolute;
   right: 0;
@@ -16,7 +13,6 @@ video#video {
 
 #background {
   background: url(/assets/images/poster.jpg) center center no-repeat;
-  opacity: 0.0;
   position:absolute;
   right: 0;
   bottom: 0;
@@ -39,6 +35,14 @@ video#video {
      -moz-transition: all 1s;
      -o-transition: all 1s;
       transition: all 1s;
+}
+
+#parallax-home-contents {
+  padding-bottom: 97px;
+}
+
+#parallax-home .next-section {
+  bottom: 105px;
 }
 
 .title {
@@ -73,21 +77,31 @@ video#video {
 }
 
 #menu.navbar-shrink {
-  height: 70px !important;
+  height: 50px !important;
 }
 
 #menu .navbar-header span {
   font-size: 22px;
   margin-left: 10px;
+  margin-bottom: 0px;
 }
 
+#menu .navbar-header .nav-logo {
+  margin-top: 15px;
+}
 
-/* IPNONE PORTRAIT */
-@media (max-width:480px){
-  .title {
-    top: 20%;
-  }
-
+/* iPad In Portrait & Landscape 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) */
+/* iPhone 5 In Portrait & Landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+/* iPhone 2G-4S In Portrait & Landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
   .title h2 {
     font-size: 1.1em !important;
   }
@@ -96,13 +110,6 @@ video#video {
     font-size: 18px;
   }
 
-  #parallax-home .next-section {
-    bottom: 95px;
-  }
-
-  #background {
-    opacity: 1.0;
-  }
   .navbar-shrink {
     background: rgba(255,255,255,0.9) !important;
   }

@@ -1,0 +1,199 @@
+---
+# If set, this specifies the layout file to use. Use the layout file name without the file extension. Layout files must be placed in the  _layouts directory.
+layout: default
+
+# If you need your processed blog post URLs to be something other than the default /year/month/day/title.html then you can set this variable and it will be used as the final URL.
+#permalink:
+
+# Set to false if you don’t want a specific post to show up when the site is generated.
+#published:
+
+# Instead of placing posts inside of folders, you can specify one or more categories that the post belongs to. When the site is generated the post will act as though it had been set with these categories normally. Categories (plural key) can be specified as a YAML list or a space-separated string.
+#category:
+#categories:
+
+# Similar to categories, one or multiple tags can be added to a post. Also like categories, tags can be specified as a YAML list or a space- separated string.
+#tags:
+
+title: "21st digital | we build software that matters"
+preloading: true
+hide-menu-on-start: true
+---  	
+	
+	<!-- BEGIN: #HOME -->
+<section id="home" class="intro-parallax nav-sections">
+  <!-- VIDEO --> 
+<!-- 
+	<div class="wrapper">
+    <div class="screen" id="screen-1" data-video="{{ site.video_path }}video.mp4">
+        <img src="{{ site.image_path }}poster.jpg" class="big-image" />
+    </div>
+  </div>
+-->
+	<video autoplay loop id="video" poster="{{ site.image_path }}poster.jpg">
+		<source src="{{ site.video_path }}video.mp4" type="video/mp4">
+	</video>
+
+  <div id="background">
+  	
+  </div>
+
+	<div class="raster">
+		
+	</div>
+	
+  <!-- BEGIN: HOME PARALLAX -->
+	<div id="parallax-home" class="" style="background-size: cover;">
+		<div id="parallax-home-contents">
+			<div class="home-center-contents">
+				<!-- BEGIN: TITLE -->
+				<div class="title light-text">
+					<h2>Information Overload?</h2>
+					<h4>Wir entwickeln einfache und elegante Software für den Mobile- und Web-Bereich.</h4>
+				</div>
+				<!-- END: TEXT SLIDER -->
+			</div>
+		</div>
+		<!-- END: PARALLAX HOME CONTENTS -->		  		
+  	
+  	<!-- BEGIN: GO NEXT SECTION BUTTON -->
+  	<div class="next-section">
+      <a class="nav-to go-about" href="#about"><img src="{{ site.image_path }}scrolldown.png" alt=""></a>
+		</div>    
+  </div>
+  <!-- END: HOME PARALLAX -->
+  
+</section>
+<!-- END: #HOME -->
+
+
+
+
+
+
+<!-- BEGIN: ABOUT SECTION --> 
+<section id="about" class="nav-sections">
+	
+	<!-- BEGIN: LIGHT SECTION -->
+	<div class="light-section nopaddingbottom">
+	  	
+	  	<!-- BEGIN: CONTAINER -->
+	  	<div class="container">
+		  	
+		  	<!-- BEGIN: ABOUT TITLE --> 
+		    <div class="section-title row">
+
+					<h2>Über uns</h2>
+					<div class="divider-grey"></div> 
+						
+						<p class="small-pwide">
+		          Wir glauben, dass Software noch zu komplex und überladen ist. Überflüssige Funktionen lenken vom eigentlichen Problem ab, statt es zu lösen. Durch einfache, ästhetische und nützliche Software wollen wir das Chaos bändigen.
+		        </p>
+
+						<div class="space"></div>
+
+						<p class="small-pwide">
+							Spezialisiert auf den Mobile- und Web-Bereich entwickeln wir Software von der einfachen App und Website bis zur großen Anwendung - Schritt für Schritt gemeinsam mit dem Kunden.
+						</p>
+
+						<div class="space"></div>
+
+						<p class="small-pwide">
+							Neben iOS im Mobilsektor setzen wir in erster Linie auf Ruby on Rail als Web-Technologie zusammen mit HTML, JavaScript und CSS. Wir arbeiten uns schnell in neue, komplexe Themen ein und vermitteln diese einfach, bildlich und auf Augenhöhe. Dabei behalt wir stets die Lösung des Kernproblems im Fokus und lernen auf dem Weg eine Menge dazu.
+						</p>
+						
+						<div class="space"></div>
+
+						<p class="small-pwide">
+		          Wir sind Tüftler und Forscher - Immer auf der Suche nach einfacheren und besseren Technologien und Lösungen. Auf dem Weg haben wir 'ne Menge Spaß und nehmen uns dabei nicht allzu ernst. Das, was wir tun, aber dafür umso mehr.
+		        </p>
+		        
+					<!-- -->
+				</div>
+				<!-- END --> 
+	  	</div><!-- END CONTAINER -->
+
+	</div><!-- END: LIGHT SECTION -->			
+</section>	
+<!-- END: ABOUT SECTION -->
+
+
+
+<!-- BEGIN: CONTACT SECTION -->
+<section id="contacts" class="light-section nopaddingbottom nav-sections">
+	
+	<!-- BEGIN: CONTAINER -->
+	<div class="container">
+
+		<!-- BEGIN: CONTACT --> 
+	    <div class="section-title row">
+				<h2>Kontakt</h2>
+				<div class="divider-grey"></div>
+
+				<p class="small-pwide">
+					Interesse, Fragen oder einfach "Hallo" sagen? Schreib' uns an <a href="mailto:hello@21stdigital.de">hello@21stdigital.de</a> oder komm' einfach bei uns im Oberhafen vorbei.
+				</p>
+
+		</div>
+		<!-- END --> 							
+
+	</div>
+	<!-- END: CONTAINER -->
+
+					
+	
+	<!-- BEGIN: FOOTER -->
+	<div class="footer">
+		
+		<!-- GOOGLE MAP -->
+		<div id="map" style="height:350px;"></div>				
+		
+		<!-- BEGIN: OTHER CONTACTS -->	
+		<div class="container other-contacts text-center animated bounce">
+			<div class="col-xs-12 col-md-4">
+				<div class="c-icon">
+					<i class="glyphicons phone_alt"></i>
+				</div>
+				<p>(+ 49) 40 not-a-number</p>
+			</div>
+			
+			<div class="col-xs-12 col-md-4">
+				<div class="c-icon">
+					<i class="glyphicons envelope"></i>
+				</div>
+				<a href="mailto:hello@21stdigital.de">hello@21stdigital.de</a><br/>
+			</div>
+			
+			<div class="col-xs-12 col-md-4">
+				<div class="c-icon">
+					<i class="glyphicons google_maps"></i>
+				</div>
+				<p>Oberhafenstraße 1<br/>20097 Hamburg</p>
+				
+			</div>
+		</div>
+		<!-- END -->
+		
+		
+		<!-- BEGIN BOTTOM FOOTER -->
+		<div class="container">
+			<div id="bottom-footer" class="text-center">
+					
+				<div class="b-text">
+					<a href="{{ site.base_path }}imprint/" class="">Impressum</a>
+				</div>
+
+				<div class="">
+					<h1><a href="#home" class="">21st digital GmbH</a></h1>	
+				</div>
+				 
+				<div class="b-text">
+					<p>Copyrights © 2014</p>
+				</div>
+			</div>
+		</div>
+		<!-- END BOTTOM FOOTER -->		
+	</div>
+	<!-- END: FOOTER -->				
+</section>
+<!-- END: CONTACT SECTION -->

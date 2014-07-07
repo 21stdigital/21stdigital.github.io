@@ -1,7 +1,7 @@
 # Site settings
 title: "21st digital | we build software that matters"
 email: hello@21stdigital.de
-description: ""
+description: "bla und blub"
 baseurl: ""
 url: "http://www.21stdigital.de"
 author: "21st digital GmbH"
@@ -12,4 +12,35 @@ intro_copy: "Wir entwickeln einfache und ästhetische Software für den Mobile- 
 # Build settings
 markdown: kramdown
 permalink: pretty
-exclude: CNAME, Gemfile, Gemfile.lock
+exclude: ["CNAME", "Gemfile", "Gemfile.lock"]
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      author: "21st digital GmbH"
+
+base_path: "/"
+asset_path: "/assets/"
+image_path: "/assets/images/"
+video_path: "/assets/videos/"
+css_path: "/assets/css/"
+js_path: "/assets/js/"
+plugin_path: "/assets/plugins/"
+
+
+# Google Maps settings
+google_maps:
+  latitude: 53.545951
+  longitude: 10.007679
+  options:
+    zoom: 14
+    center: latlng
+    scrollwheel: false
+    scaleControl: false
+    disableDefaultUI: false
+    draggable: false
+    mapTypeId: "google.maps.MapTypeId.ROADMAP"
+  contentString: "\"<b>21st digital GmbH</b><br>Oberhafenstraße 1<br> 20097 Hamburg\""
