@@ -1,0 +1,51 @@
+.project-teaser {
+	border-bottom-color: rgb(238, 238, 238);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 30px;
+}
+
+.project-image {
+	height: 150px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.project-image img {
+	width: 100%;
+	top: -25%;
+	position: relative;
+}
+
+.project h2 {
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.project {
+	margin-bottom: 60px;
+}
+
+
+.logo-21st {
+	width: 150px;
+	height: auto;
+	margin-left: 40px;
+	margin-top: 80px;
+	position: fixed;
+	z-index: 500;
+}
+
+#video {
+	z-index:  1000;
+}
+
+.raster {
+	z-index: 1100;
+}
+
+.parallax-home {
+	z-index: 1200;
+}

@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jakyll' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'jakyll', null ]
+5 verbose cache add name=undefined spec="jakyll" args=["jakyll",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'jakyll',
+6 verbose parsed url   path: 'jakyll',
+6 verbose parsed url   href: 'jakyll' }
+7 silly lockFile 511a0bd3-jakyll jakyll
+8 verbose lock jakyll /Users/andres/.npm/511a0bd3-jakyll.lock
+9 silly lockFile 511a0bd3-jakyll jakyll
+10 silly lockFile 511a0bd3-jakyll jakyll
+11 verbose addNamed [ 'jakyll', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile ba9b120c-jakyll jakyll@
+14 verbose lock jakyll@ /Users/andres/.npm/ba9b120c-jakyll.lock
+15 silly addNameRange { name: 'jakyll', range: '*', hasData: false }
+16 verbose request where is /jakyll
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 4218a6062a438c38
+19 verbose url raw /jakyll
+20 verbose url resolving [ 'https://registry.npmjs.org/', './jakyll' ]
+21 verbose url resolved https://registry.npmjs.org/jakyll
+22 verbose request where is https://registry.npmjs.org/jakyll
+23 info trying registry request attempt 1 at 15:17:39
+24 http GET https://registry.npmjs.org/jakyll
+25 http 404 https://registry.npmjs.org/jakyll
+26 verbose headers { date: 'Mon, 24 Nov 2014 14:17:40 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '52',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-ams4127-AMS',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1416838659.680492,VS0,VE368',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Mon, 24 Nov 2014 14:17:40 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-ams4127-AMS',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1416838659.680492,VS0,VE368',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile ba9b120c-jakyll jakyll@
+29 silly lockFile ba9b120c-jakyll jakyll@
+30 error 404 404 Not Found: jakyll
+30 error 404
+30 error 404 'jakyll' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Darwin 14.0.0
+32 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "jakyll"
+33 error cwd /Users/andres/Documents/Projects/website/21stdigital.github.io
+34 error node -v v0.10.33
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]
