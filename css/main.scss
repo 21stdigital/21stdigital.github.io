@@ -6,3 +6,24 @@
 @import
   "home"
 ;
+
+
+$font-helvetica:    Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-courir:	    Courier, monospace;
+$color-red:			#e5251b;
+$color-dark-grey:	#1d1d1b;
+
+
+.navbar {
+	
+
+}
+
+
+
+.navbar-default.navbar-21st {
+	.selected {
+		color: #FF0000;
+		text-transform: uppercase;
+	}
+}
