@@ -34,7 +34,7 @@ html, body{
 	-webkit-font-smoothing:antialiased;
 }
 body{
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 1.628571;
 	color: #444444;
 	background-color: #fff;
@@ -48,7 +48,7 @@ p{
 	text-rendering: optimizelegibility;
   	font-weight: 300;
   	color: #5C5C5C;
-  	font-size: 15px;
+  	font-size: 18px;
   	font-family: Courier New, monospace;
 }
 a{font-weight: bolder;outline: none;}
@@ -65,7 +65,7 @@ h2.bigone{
 	color: #222;
 }
 H2{
-	font-size: 36px;
+	font-size: 52px;
 	font-weight: normal;
 }
 h3{
