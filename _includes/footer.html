@@ -1,3 +1,5 @@
+
+
 <footer>
     <div class="contact-information">
         <div class="container">
@@ -83,10 +85,28 @@ function mapinitialize() {
 
 }
 mapinitialize();
-</script><script type="text/javascript">
+</script>
+
+<script type="text/javascript">
 	jQuery(function($) { // on document load
 	    $('#menu').ddscrollSpy({ // initialize first demo
-	        scrolltopoffset: -50
-	    })
+	        scrolltopoffset: -45,
+	    });
+
+        
+     
+      var owl = $("#owl-projects");
+      owl.owlCarousel({
+        items : 3,
+      });
+
+
+      {% for section in site.sections %}
+        {% if section.parallaxEnabled %}
+            $('#{{ section.title | slugify }}').parallax("50%", {{section.parallaxSpeed}});
+        {% endif %}
+      {% endfor %}
+      
+    
 	})
 </script>
