@@ -4,16 +4,13 @@
 @charset "utf-8";
 
 @import
-  "home",
-  "contact",
-  "footer"
+	"default",
+	"home",
+	"contact",
+	"footer"
 ;
 
 
-$font-helvetica:    Helvetica, Arial, "Lucida Grande", sans-serif;
-$font-courir:     Courier, monospace;
-$color-red:     #e5251b;
-$color-dark-grey: #1d1d1b;
 
 
 .navbar-default.navbar-21st {
@@ -22,3 +19,4 @@ $color-dark-grey: #1d1d1b;
     text-transform: uppercase;
   }
 }
+
