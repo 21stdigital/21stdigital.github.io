@@ -4,19 +4,104 @@
 @charset "utf-8";
 
 @import
-	"default",
-	"home",
-	"contact",
-	"footer"
+  "home",
+  "contact",
+  "footer",
+  "navbar",
+  "projects"
 ;
 
 
+$font-helvetica:    Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-courir:     Courier new, monospace;
+$color-red:     #e5251b;
+$color-dark-grey: #191919;
 
 
-.navbar-default.navbar-21st {
-  .selected {
-    color: #FF0000;
-    text-transform: uppercase;
+
+
+//======================
+// PARLLAX
+//======================
+
+{% for section in site.sections %}
+  {% if section.parallaxEnabled %}
+  #{{ section.title | slugify }} {
+    background:url({{section.parallaxImage}}) 50% 0 no-repeat fixed;
+    
+  }
+  {% endif %}
+{% endfor %}
+
+.test {
+  color: #FFF;
+}
+
+
+//======================
+// LOGO
+//======================
+
+.owl-carousel .item {
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  .text {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.4em;
+    text-align: justify;
   }
 }
 
+//======================
+// LOGO
+//======================
+
+#logo {
+  position: fixed;
+  z-index: 500;
+  width: 200px;
+  height: auto;
+  top: 100px;
+  left: 50px;
+
+  img {
+    width: 100%;
+  }
+}
+
+
+
+//======================
+// GENERAL
+//======================
+
+
+section {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+body {
+  font-family: $font-courir;
+  font-size: 18px;
+  color: $color-dark-grey;
+  line-height: 1.6em;
+}
+
+@keyframes blink {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1s step-start 0s infinite;
+} 

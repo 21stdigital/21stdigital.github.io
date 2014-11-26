@@ -1,0 +1,26 @@
+---
+title: Projekte 
+index: 2
+parallaxEnabled: true
+parallaxImage: /assets/images/projects_bg.jpg
+parallaxSpeed: 0.2
+---
+
+<div class="container">
+    <h1>{{ page.title }}</h1>
+    <div class="owl-carousel" id="owl-projects">
+        {% for project in site.projects %}
+        <div class="project item">
+            <div class="project-image" style="background-image: url({{ project.teaser_img}});">
+            </div>
+            <div class="text">
+                <h2>
+                  <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+                </h2>
+                <div class="project-teaser">{{ project.teaser }} </div>
+                <a href="{{ project.url | prepend: site.baseurl }}">weiterlesen...</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

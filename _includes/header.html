@@ -1,6 +1,6 @@
 <header>
 
-    <nav class="navbar navbar-default navbar-fixed-top navbar-21st" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-21st cl-effect-5" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -15,12 +15,13 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right" id="menu">
+                <ul class="nav  nav-justified" id="menu">
 
                 	{% assign sections = site.sections | sort: 'index' %}
                 	{% for section in sections %}
                 	<li>
-                    	<a href="#{{ section.title || slugify }}">{{ section.title}}</a>
+                    	<a href="#{{ section.title || slugify }}"><span data-hover="{{section.title}}">{{ section.title}}</span></a>
+
                     </li>
 					
 					{% endfor %}
@@ -33,4 +34,8 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+    <div id="logo">
+        <img src="assets/images/logo.png"/>
+    </div>
 </header>
