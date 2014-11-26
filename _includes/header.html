@@ -20,7 +20,7 @@
                 	{% assign sections = site.sections | sort: 'index' %}
                 	{% for section in sections %}
                 	<li>
-                    	<a href="#{{ section.name || downcase }}">{{ section.name}}</a>
+                    	<a href="#{{ section.title || slugify }}">{{ section.title}}</a>
                     </li>
 					
 					{% endfor %}
