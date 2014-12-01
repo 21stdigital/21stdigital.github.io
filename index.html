@@ -5,6 +5,8 @@ layout: default
 {% assign sections = site.sections | sort: 'index' %}
 {% for section in sections %}
 <section id="{{ section.title | slugify }}">
+  <div class="content">
     {{ section.content }}
+  </div>
 </section>
 {% endfor %}

@@ -5,6 +5,7 @@
 
 @import
   "home",
+  "default",
   "contact",
   "footer",
   "navbar",
@@ -20,6 +21,14 @@ $color-dark-grey: #191919;
 
 
 
+.marked-white {
+  background-color: #FFFFFF;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 //======================
 // PARLLAX
 //======================
@@ -27,7 +36,7 @@ $color-dark-grey: #191919;
 {% for section in site.sections %}
   {% if section.parallaxEnabled %}
   #{{ section.title | slugify }} {
-    background:url({{section.parallaxImage}}) 50% 0 no-repeat fixed;
+    //background:url({{section.parallaxImage}}) 50% 0 no-repeat fixed;
     
   }
   {% endif %}
@@ -44,14 +53,20 @@ $color-dark-grey: #191919;
 
 .owl-carousel .item {
   background-color: #FFFFFF;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0px;
+  margin-right: 20px;
+  text-align: center;
 
   .text {
-    padding: 20px;
-    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8em;
     line-height: 1.4em;
-    text-align: justify;
+
+    .project-teaser {
+      margin-bottom: 10px;
+    }
   }
 }
 
@@ -59,6 +74,7 @@ $color-dark-grey: #191919;
 // LOGO
 //======================
 
+/*
 #logo {
   position: fixed;
   z-index: 500;
@@ -71,7 +87,7 @@ $color-dark-grey: #191919;
     width: 100%;
   }
 }
-
+*/
 
 
 //======================
@@ -81,8 +97,11 @@ $color-dark-grey: #191919;
 
 section {
   margin-bottom: 50px;
-  padding-bottom: 50px;
+  
+  
 }
+
+
 
 body {
   font-family: $font-courir;

@@ -3,7 +3,7 @@ layout: default
 title:  "SWARMCOMPANY"
 date:   2014-11-24 17:02:35
 categories: jekyll update
-teaser: SWARMCOMPANY ist eine interessante Kombination aus einer Social Media Plattform und einem Social Game. Die Nutzer können echtes Geld verdienen, indem sie die positiven Momente ihres Tages in Form von Bildern und Texten teilen.
+teaser: Spaß haben und gleichzeitig echtes Geld verdienen durch posten und bewerten von positiven Momentaufnahmen in Form von Fotos.
 
 teaser_img: /assets/images/projects/swarmcompany/swarmcompany.jpg
 ---
