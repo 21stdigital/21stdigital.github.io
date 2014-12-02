@@ -91,6 +91,9 @@ mapinitialize();
 	        scrolltopoffset: -45,
 	    });
 
+      var isMobile = function () {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)      
+      }
         
      
       var owl = $("#owl-projects");
@@ -98,13 +101,58 @@ mapinitialize();
         items : 3,
       });
 
-
+      var paralaxDiv;
+      
       {% for section in site.sections %}
         {% if section.parallaxEnabled %}
-            $('#{{ section.title | slugify }}').parallax("0%", {{section.parallaxSpeed}});
+          paralaxDiv = $('#{{ section.title | slugify }}-parallax');
+          paralaxLogoDiv = $('.parallax-logo');
+          if (!isMobile()) {
+            
+            paralaxDiv.css("background", "url({{section.parallaxImage}}) 50% 0 no-repeat fixed");
+            paralaxDiv.css("height", "70vh");
+            paralaxDiv.css("background-size", "auto 100vh");
+            paralaxDiv.parallax("50%", {{section.parallaxSpeed}});
+
+
+            paralaxLogoDiv.css("background", "url(/assets/images/logo.png) 0 0 no-repeat fixed");
+            paralaxLogoDiv.parallax("40px", 1.7);
+            paralaxLogoDiv.css("background-size", "180px auto");
+          }
+          else {
+            paralaxDiv.css("background", "url({{section.parallaxImage}}) no-repeat center center");
+            paralaxDiv.css("-webkit-background-size", "cover");
+            paralaxDiv.css("-moz-background-size", "cover");
+            paralaxDiv.css("-o-background-size", "cover");
+            paralaxDiv.css("background-size", "cover");
+            paralaxDiv.css("height", "50vh");
+          }
         {% endif %}
       {% endfor %}
       
+      
+
+      $('.typed').appear(function() {
+        var text = $(this).text();
+        $(this).html("");
+        console.log(text);
+        $(this).typed({
+          strings: [text],
+          typeSpeed: 40,
+          startDelay: 1000,
+          cursorChar: "_"
+        });
+      }, {accX: -300});
+
+      
+      $(".headline-typed").typed({
+          strings: ["// DON'T PANIC", "// WIR ENTWICKELN EINFACHE APPS", "// UND SOFTWARE"],
+          typeSpeed: 40,
+          startDelay: 1000,
+          cursorChar: "_",
+          loop: true,
+          backDelay: 1000
+        });
     
 	})
 </script>
