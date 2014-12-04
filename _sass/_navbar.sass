@@ -31,16 +31,38 @@
 
 
 
-.navbar-default.navbar-21st 
+.navbar-fixed-top.navbar-21st
+  border-width: 0
+
+.navbar-default.navbar-21st.transparent
+  background-color: transparent
+  .selected 
+    color: #FFFFFF
+    background-color: transparent
+
+
+.navbar-default.navbar-21st
+  -moz-transition: all .2s ease-in
+  -webkit-transition: all .2s ease-in
+  -o-transition: all .2s ease-in
+  transition: all .2s ease-in
+
   background-color: #FFFFFF
   .selected 
+    -moz-transition: all .2s ease-in
+    -webkit-transition: all .2s ease-in
+    -o-transition: all .2s ease-in
+    transition: all .2s ease-in
     color: #000000
     font-weight: bolder
+    background-color: transparent
   
   a:hover 
-    background-color: white
+    background-color: rgba(0,0,0,0)
   
-
+.transparent
+  .nav>li>a 
+    color: white
 
 .nav>li>a 
   position: relative
@@ -49,4 +71,5 @@
   top: 12px
   text-transform: uppercase
   color: #999999
+  background-color: transparent
 
