@@ -3,32 +3,23 @@
 ---
 @charset "utf-8";
 
+
+@import 'vendors/all';
+@import 'helpers/all';
+@import 'base/all';
+@import 'modules/all';
+
+
 @import
   "home",
   "about",
   "contact",
   "footer",
   "navbar",
-  "projects",
-  "default"
+  "projects"
 ;
 
-
-$font-helvetica:    Helvetica, Arial, "Lucida Grande", sans-serif;
-$font-courir:     Courier new, monospace;
-$color-red:     #e5251b;
-$color-dark-grey: #191919;
-
-
-
-.row {
-  padding-bottom: 100px;
-}
-
-.parallax-image {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+/*
 
 
 //======================
@@ -159,3 +150,84 @@ body {
   animation: blink 1s step-start 0s infinite;
   -webkit-animation: blink 1s step-start 0s infinite;
 } 
+
+/*
+
+.row {
+  padding-bottom: 100px;
+}
+
+.parallax-image {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+//======================
+// PARLLAX
+//======================
+
+{% for section in site.sections %}
+  {% if section.parallaxEnabled %}
+  #{{ section.title | slugify }}-parallax {
+    //background:url({{section.parallaxImage}}) 50% 0 no-repeat fixed;
+    //height: 50vh;
+   // background-size: auto 100vh;
+    position: relative;
+  }
+  .overlay {
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  {% endif %}
+{% endfor %}
+
+
+
+.parallax-logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: 150px;
+}
+
+
+//======================
+// LOGO
+//======================
+
+.owl-carousel .item {
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  .text {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.4em;
+    text-align: justify;
+  }
+}
+
+//======================
+// LOGO
+//======================
+
+#logo {
+  //position: fixed;
+  z-index: 500;
+  width: 200px;
+  height: auto;
+  top: 100px;
+  left: 50px;
+
+  img {
+    width: 100%;
+  }
+}
+
+*/

@@ -1,49 +1,15 @@
 <footer>
-    <div class="contact-information">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="icon">
-                        <span class="glyphicon glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                    </div>
-                    <p>
-                        +49 40 361 683 30
-                    </p>
-                </div>
-                <div class="col-sm-4">
-                    <div class="icon">
-                        <span class="glyphicon glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                    </div>
-
-                    <p>
-                        <a class="mailto" href="mailto:#">hello@21st.digital</a>
-                    </p>
-                </div>
-                <div class="col-sm-4">
-                    <div class="icon">
-                        <span class="glyphicon glyphicon glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                    </div>
-                    <p>
-                        Oberhafenstraße 1</br>
-                        20097 Hamburg
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    
     <div class="container">
+
         <div class="row">
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>
-                        Impressum
-                    </p>
-                </div>
+            <div class="col-sm-12">
+                <p>
+                    Impressum
+                </p>
             </div>
-
         </div>
+        
     </div>
 </footer>
 
@@ -51,7 +17,128 @@
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
 function mapinitialize() {
-	var style_array = [{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#d3d3d3"}]},{"featureType":"transit","stylers":[{"color":"#808080"},{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#b3b3b3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"weight":1.8}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#d7d7d7"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ebebeb"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#a7a7a7"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#efefef"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#696969"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#737373"}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#d6d6d6"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#dadada"}]}]
+    var style_array = [{
+        "featureType": "water",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "color": "#d3d3d3"
+        }]
+    }, {
+        "featureType": "transit",
+        "stylers": [{
+            "color": "#808080"
+        }, {
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [{
+            "visibility": "on"
+        }, {
+            "color": "#b3b3b3"
+        }]
+    }, {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "color": "#ffffff"
+        }]
+    }, {
+        "featureType": "road.local",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "visibility": "on"
+        }, {
+            "color": "#ffffff"
+        }, {
+            "weight": 1.8
+        }]
+    }, {
+        "featureType": "road.local",
+        "elementType": "geometry.stroke",
+        "stylers": [{
+            "color": "#d7d7d7"
+        }]
+    }, {
+        "featureType": "poi",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "visibility": "on"
+        }, {
+            "color": "#ebebeb"
+        }]
+    }, {
+        "featureType": "administrative",
+        "elementType": "geometry",
+        "stylers": [{
+            "color": "#a7a7a7"
+        }]
+    }, {
+        "featureType": "road.arterial",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "color": "#ffffff"
+        }]
+    }, {
+        "featureType": "road.arterial",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "color": "#ffffff"
+        }]
+    }, {
+        "featureType": "landscape",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "visibility": "on"
+        }, {
+            "color": "#efefef"
+        }]
+    }, {
+        "featureType": "road",
+        "elementType": "labels.text.fill",
+        "stylers": [{
+            "color": "#696969"
+        }]
+    }, {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [{
+            "visibility": "on"
+        }, {
+            "color": "#737373"
+        }]
+    }, {
+        "featureType": "poi",
+        "elementType": "labels.icon",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "poi",
+        "elementType": "labels",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "road.arterial",
+        "elementType": "geometry.stroke",
+        "stylers": [{
+            "color": "#d6d6d6"
+        }]
+    }, {
+        "featureType": "road",
+        "elementType": "labels.icon",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {}, {
+        "featureType": "poi",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "color": "#dadada"
+        }]
+    }]
     var latlng = new google.maps.LatLng(53.545951, 10.007679);
     var myOptions = {
         zoom: 14,
@@ -86,73 +173,81 @@ mapinitialize();
 </script>
 
 <script type="text/javascript">
-	jQuery(function($) { // on document load
-	    $('#menu').ddscrollSpy({ // initialize first demo
-	        scrolltopoffset: -45,
-	    });
+jQuery(function($) { // on document load
+    $('#menu').ddscrollSpy({ // initialize first demo
+        scrolltopoffset: -45,
+    });
 
-      var isMobile = function () {
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)      
-      }
-        
-     
-      var owl = $("#owl-projects");
-      owl.owlCarousel({
-        items : 3,
-      });
-
-      var paralaxDiv;
-      
-      {% for section in site.sections %}
-        {% if section.parallaxEnabled %}
-          paralaxDiv = $('#{{ section.title | slugify }}-parallax');
-          paralaxLogoDiv = $('.parallax-logo');
-          if (!isMobile()) {
-            
-            paralaxDiv.css("background", "url({{section.parallaxImage}}) 50% 0 no-repeat fixed");
-            paralaxDiv.css("height", "70vh");
-            paralaxDiv.css("background-size", "auto 100vh");
-            paralaxDiv.parallax("50%", {{section.parallaxSpeed}});
+    var isMobile = function() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+    }
 
 
-            paralaxLogoDiv.css("background", "url(/assets/images/logo.png) 0 0 no-repeat fixed");
-            paralaxLogoDiv.parallax("40px", 1.7);
-            paralaxLogoDiv.css("background-size", "180px auto");
-          }
-          else {
-            paralaxDiv.css("background", "url({{section.parallaxImage}}) no-repeat center center");
-            paralaxDiv.css("-webkit-background-size", "cover");
-            paralaxDiv.css("-moz-background-size", "cover");
-            paralaxDiv.css("-o-background-size", "cover");
-            paralaxDiv.css("background-size", "cover");
-            paralaxDiv.css("height", "50vh");
-          }
-        {% endif %}
-      {% endfor %}
-      
-      
+    var owl = $("#owl-projects");
+    owl.owlCarousel({
+        items: 3,
+    });
 
-      $('.typed').appear(function() {
+    var paralaxDiv;
+
+    { %
+        for section in site.sections %
+    } { %
+        if section.parallaxEnabled %
+    }
+    paralaxDiv = $('#{{ section.title | slugify }}-parallax');
+    paralaxLogoDiv = $('.parallax-logo');
+    if (!isMobile()) {
+
+        paralaxDiv.css("background", "url({{section.parallaxImage}}) 50% 0 no-repeat fixed");
+        paralaxDiv.css("height", "70vh");
+        paralaxDiv.css("background-size", "auto 100vh");
+        paralaxDiv.parallax("50%", {
+            {
+                section.parallaxSpeed
+            }
+        });
+
+
+        paralaxLogoDiv.css("background", "url(/assets/images/logo.png) 0 0 no-repeat fixed");
+        paralaxLogoDiv.parallax("40px", 1.7);
+        paralaxLogoDiv.css("background-size", "180px auto");
+    } else {
+        paralaxDiv.css("background", "url({{section.parallaxImage}}) no-repeat center center");
+        paralaxDiv.css("-webkit-background-size", "cover");
+        paralaxDiv.css("-moz-background-size", "cover");
+        paralaxDiv.css("-o-background-size", "cover");
+        paralaxDiv.css("background-size", "cover");
+        paralaxDiv.css("height", "50vh");
+    } { % endif %
+    } { % endfor %
+    }
+
+
+
+    $('.typed').appear(function() {
         var text = $(this).text();
         $(this).html("");
         console.log(text);
         $(this).typed({
-          strings: [text],
-          typeSpeed: 40,
-          startDelay: 1000,
-          cursorChar: "_"
+            strings: [text],
+            typeSpeed: 40,
+            startDelay: 1000,
+            cursorChar: "_"
         });
-      }, {accX: -300});
+    }, {
+        accX: -300
+    });
 
-      
-      $(".headline-typed").typed({
-          strings: ["// DON'T PANIC", "// WIR ENTWICKELN EINFACHE APPS", "// UND SOFTWARE"],
-          typeSpeed: 40,
-          startDelay: 1000,
-          cursorChar: "_",
-          loop: true,
-          backDelay: 1000
-        });
-    
-	})
+
+    $(".headline-typed").typed({
+        strings: ["// DON'T PANIC", "// WIR ENTWICKELN EINFACHE APPS", "// UND SOFTWARE"],
+        typeSpeed: 40,
+        startDelay: 1000,
+        cursorChar: "_",
+        loop: true,
+        backDelay: 1000
+    });
+
+})
 </script>
