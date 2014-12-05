@@ -1,0 +1,16 @@
+.team
+    margin-top: 10%
+    margin-bottom: 10%
+
+.member
+    small
+        display: block
+    @include respond-to(0, $xs-device-width)
+        h5
+            font-size: 0.875em
+    @include respond-to($xs-device-width, $sm-device-width)
+        h5
+            font-size: 0.95em
+    @include respond-to($sm-device-width, $md-device-width)
+        h5
+            font-size: 1.25em

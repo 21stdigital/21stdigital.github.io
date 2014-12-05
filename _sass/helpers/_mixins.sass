@@ -12,6 +12,9 @@
 	-moz-box-shadow: $x $y $spread $color
 	-webkit-box-shadow: $x $y $spread $color
 
+@mixin respond-to($min-width, $max-width)
+	@media only screen and (min-width: $min-width) and (max-width: $max-width - 1) 
+		@content
 
 // Keyframe animation
 @mixin keyframes($animation-name)
