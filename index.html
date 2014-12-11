@@ -1,26 +1,31 @@
 ---
-layout: default
+layout: main
 ---
 {% assign sections = site.sections | sort: 'index' %}
 {% for section in sections %}
+
 	{% if section.parallaxEnabled and section.parallaxBottom != true %}
 		<div id="{{ section.title | slugify }}-parallax-wrapper">
-			<div  id="{{ section.title | slugify }}-parallax" class="parallax-image">
+			<div  id="{{ section.title | slugify }}-parallax" class="parallax-image parallax-image-before">
 				<div class="overlay"></div>
 				<div class="parallax-logo"></div>
 			</div>
 		</div>
 	{% endif %}
-	<section id="{{ section.title | slugify }}">
+	
+	<section id="{{ section.title | slugify }}">	
 		{% if section.hide_title != true %}
-			<h1 class="text-center"><span class="typed">{{ section.title }}</span></h1>
+			<h2 class="text-center"><span class="typed">{{ section.title }}</span></h2>
+		{% else %}	
+			<h2 class="text-center sr-only"><span class="typed">{{ section.title }}</span></h2>
 		{% endif %}
 
 		{{ section.content }}
 	</section>
+	
 	{% if section.parallaxEnabled and section.parallaxBottom %}
 		<div id="{{ section.title | slugify }}-parallax-wrapper">
-			<div  id="{{ section.title | slugify }}-parallax" class="parallax-image">
+			<div  id="{{ section.title | slugify }}-parallax" class="parallax-image parallax-image-after">
 				<div class="overlay"></div>
 				<div class="parallax-logo"></div>
 			</div>
