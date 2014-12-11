@@ -22,6 +22,8 @@ markdown: kramdown
 
 # Collections
 collections:
-- sections
-- projects
-- projectsarchive
+  sections:
+  projects:
+    output: true
+  projectsarchive:
+    output: true

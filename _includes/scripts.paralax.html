@@ -1,0 +1,107 @@
+<script>
+    jQuery(function($) { // on document load
+        $('#menu').ddscrollSpy({ // initialize first demo
+            scrolltopoffset: -50,
+        });
+
+      var isMobile = function () {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)      
+      }
+        
+
+      var paralaxDiv;
+      
+      {% for section in site.sections %}
+        {% if section.parallaxEnabled %}
+          paralaxDiv = $('#{{ section.title | slugify }}-parallax');
+          paralaxWrapper = $('#{{ section.title | slugify }}-parallax-wrapper');
+          paralaxLogoDiv = $('.parallax-logo');
+          if (!isMobile()) {
+            paralaxDiv.css("background", "url({{section.parallaxImage}}) no-repeat fixed");
+            paralaxDiv.css("height", "46vw");
+            paralaxLogoDiv.css("background", "url(/assets/images/logo.png) no-repeat fixed");
+          }
+          else {
+            paralaxWrapper.html('<img src="{{section.parallaxImage}}" class="img-responsive" />');
+          }
+        {% endif %}
+      {% endfor %}
+      
+
+      
+      var parallaxDivs = $(".parallax-image");
+      var parallaxLogoDivs = $(".parallax-logo");
+      var speed = 0.5;
+      $( window ).scroll(function() {
+        var windowOffset = window.pageYOffset;
+        
+        if (windowOffset > $(window).height() - 50) {
+          $('.navbar-default.navbar-21st').removeClass("transparent");
+        }
+        else
+          $('.navbar-default.navbar-21st').addClass("transparent");
+
+        
+        if (!isMobile()) {
+
+          $.each(parallaxDivs, function (key, element) {
+            if ($(element).visible(true)) {
+              var offset = -(windowOffset - $(element).offset().top);
+              
+              offset *= speed;
+
+              $(element).css("background-position-y", offset + "px");
+              $(element).css("background-position-x", "50%");
+              $(element).css("background-size", "140vw auto");
+              
+              $.each(parallaxLogoDivs, function (key, element) {
+              
+                var offset = -(windowOffset - $(element).offset().top);
+                
+                offset *= -0.4;
+                offset += $( window ).height() * 0.5;
+
+                $(element).css("background-position-y", offset + "px");
+                $(element).css("background-position-x", "40px");
+                $(element).css("background-size", "150px auto");
+              })
+            }
+
+          });
+        }
+      });
+      
+
+      if (isMobile()) {
+        $(".intro-wrapper video").remove();
+        var d = $(".intro-wrapper");
+        $(d).css("background", "url(/assets/images/overload.gif)");
+        $(d).css("background-size", "auto 100%");
+        $(d).css("background-position-x", "35%");
+      }
+      
+
+      $('.typed').appear(function() {
+        var text = $(this).text();
+        $(this).html("");
+        console.log(text);
+        $(this).typed({
+          strings: [text],
+          typeSpeed: 40,
+          startDelay: 1000,
+          cursorChar: "_"
+        });
+      }, {accX: -300});
+
+      
+      $(".headline-typed").typed({
+          strings: ["// DON'T PANIC", "// WIR ENTWICKELN EINFACHE APPS", "// UND SOFTWARE"],
+          typeSpeed: 40,
+          startDelay: 1000,
+          cursorChar: "_",
+          loop: true,
+          backDelay: 1000
+        });
+    
+    })
+</script>
