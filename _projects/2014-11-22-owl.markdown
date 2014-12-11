@@ -2,7 +2,8 @@
 layout: project
 title:  "OWL"
 date:   2014-11-24 17:02:35
-teaser: Die Brille ist viel mehr als nur eine Sehhilfe. Sie ist charaktergebend wie kein zweites Kleidungsstück. So gesehen ist die Entscheidung für eine neue Brille – wenn das Wortspiel gestattet ist – eine Entscheidung mit großer Tragweite.
+teaser_title: "Webshop"
+teaser: Wir haben für das Berliner Brillen-Label OWL Optics einen Webshop entwickelt, der auf die speziellen Anforderungen des Labels zugeschnitten ist.
 
 teaser_img: /assets/images/projects/owl/owl.gif
 ---
