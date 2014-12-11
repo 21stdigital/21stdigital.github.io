@@ -1,10 +1,11 @@
 ---
-layout: project
-title:  "OWL"
+layout: default
+title:  "SWARMCOMPANY"
 date:   2014-11-24 17:02:35
-teaser: Die Brille ist viel mehr als nur eine Sehhilfe. Sie ist charaktergebend wie kein zweites Kleidungsstück. So gesehen ist die Entscheidung für eine neue Brille – wenn das Wortspiel gestattet ist – eine Entscheidung mit großer Tragweite.
+categories: jekyll update
+teaser: SWARMCOMPANY ist eine interessante Kombination aus einer Social Media Plattform und einem Social Game. Die Nutzer können echtes Geld verdienen, indem sie die positiven Momente ihres Tages in Form von Bildern und Texten teilen.
 
-teaser_img: /assets/images/projects/owl/owl.gif
+teaser_img: /assets/images/projects/swarmcompany/swarmcompany.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
