@@ -1,9 +1,9 @@
 ---
 layout: default
-title:  Audi iOS App
+title:  Audi A1 e-Katalog
 date:   2014-11-24 17:02:35
 categories: jekyll update
-teaser: Geschäftsbericht 2012 für Audi
+teaser: Entwicklung einer Katalog App, die die Möglichkeiten des iPads perfekt nutzt
 
 teaser_img: /assets/images/projects/audi2012/logo.png
 ---
