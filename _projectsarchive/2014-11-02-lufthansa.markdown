@@ -3,7 +3,7 @@ layout: project
 title:  Lufthansa Magazin
 date:   2014-11-24 17:02:35
 categories: jekyll update
-teaser: Entwicklung einer Katalog App, die die Möglichkeiten des iPads perfekt nutzt
+teaser: Adaption des Lufthansa Board Magazins als interaktive iPad App
 teaser_img: /assets/images/projects/lufthansa/logo.png
 
 media:
