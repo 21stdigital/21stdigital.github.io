@@ -10,7 +10,7 @@ parallaxSpeed: 0.2
     <div class="owl-carousel" id="owl-projects">
         {% for project in site.projects %}
         <div class="project item">
-            <a href="{{ project.url | prepend: site.baseurl }}">
+            <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
                 <img src="{{ project.teaser_img}}" class="img-responsive" alt="{{ project.title }}"/>
             </a>
             <div class="text">
@@ -36,10 +36,16 @@ parallaxSpeed: 0.2
 
     
 
+    
+
+</div>
+
+
+<div class="container">
     <div class="owl-carousel" id="owl-project-archive">
         {% for project in site.projectsarchive %}
         <div class="project item">
-            <a href="{{ project.url | prepend: site.baseurl }}">
+            <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
                 <img src="{{ project.teaser_img}}" class="img-responsive" alt="{{ project.title }}"/>
             </a>
             <div class="text">
