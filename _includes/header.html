@@ -1,6 +1,10 @@
 <header>
 
-    <nav class="navbar navbar-default navbar-fixed-top navbar-21st cl-effect-5 transparent" role="navigation">
+    {% if page.layout == 'main' %}
+       <nav class="navbar navbar-default navbar-fixed-top navbar-21st cl-effect-5 transparent" role="navigation">
+    {% else %}
+        <nav class="navbar navbar-default navbar-fixed-top navbar-21st cl-effect-5" role="navigation">
+    {% endif %}  
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -20,7 +24,11 @@
                 	{% assign sections = site.sections | sort: 'index' %}
                 	{% for section in sections %}
                 	<li>
-                    	<a href="#{{ section.title || slugify }}"><span data-hover="{{section.title}}">{{ section.title}}</span></a>
+                        {% if page.layout == 'main' %}
+                            <a href="#{{ section.title || slugify }}"><span data-hover="{{section.title}}">{{ section.title}}</span></a>
+                        {% else %}
+                            <a href="/#{{ section.title || slugify }}"><span data-hover="{{section.title}}">{{ section.title}}</span></a>
+                        {% endif %}    
 
                     </li>
 					

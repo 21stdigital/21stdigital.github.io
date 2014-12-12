@@ -3,9 +3,9 @@ layout: default
 title:  "Carl Jensen"
 date:   2014-11-24 17:02:35
 categories: jekyll update
-teaser: Carl Jensen ist Spezialist für Bodenbelege aller Art und ein echter Hamburger Traditionsbetrieb, der schon seit über 110 Jahren existiert. Um Angebote für die Bauvorhaben der Kunden erstellen zu können, müssen zunächst alle Anforderungen erhoben werden.
+teaser: Für den Hamburger Traditionsbetrieb und Spezialisten für Bodenbelege haben wir eine Enterprise iPad App entwickelt, die den gesamten Prozess der Projektverwaltung beschleunigt und dabei noch Spaß macht.
 
-teaser_img: /assets/images/projects/carl_jensen/carl_jensen.jpg
+teaser_img: /assets/images/projects/carl_jensen/carl_jensen.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 

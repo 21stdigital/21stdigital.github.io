@@ -1,11 +1,11 @@
 ---
-layout: project
-title:  "OWL"
+layout: default
+title:  Audi A1 e-Katalog
 date:   2014-11-24 17:02:35
-teaser_title: "Webshop"
-teaser: Wir haben für das Berliner Brillen-Label OWL Optics einen Webshop entwickelt, der auf die speziellen Anforderungen des Labels zugeschnitten ist.
+categories: jekyll update
+teaser: Entwicklung einer Katalog App, die die Möglichkeiten des iPads perfekt nutzt
 
-teaser_img: /assets/images/projects/owl/owl.gif
+teaser_img: /assets/images/projects/audi2012/logo.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 

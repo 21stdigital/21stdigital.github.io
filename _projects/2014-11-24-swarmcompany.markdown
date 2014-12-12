@@ -1,11 +1,11 @@
 ---
 layout: default
-title:  BMW mini iPad App
+title:  "SWARMCOMPANY"
 date:   2014-11-24 17:02:35
 categories: jekyll update
-teaser: iPad Magazin für Lufthansa
+teaser: Wir haben für das Social Media Startup nicht nur eine iPhone & Android App samt Backend entwickelt, sondern es auch vom MVP bis zum Launch technisch begleitet.
 
-teaser_img: /assets/images/projects/mini/logo.png
+teaser_img: /assets/images/projects/swarmcompany/swarmcompany.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 

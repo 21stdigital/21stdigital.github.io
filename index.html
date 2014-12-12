@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: main
 ---
 {% assign sections = site.sections | sort: 'index' %}
 {% for section in sections %}
 
-	<section id="{{ section.title | slugify }}">
 	{% if section.parallaxEnabled and section.parallaxBottom != true %}
 		<div id="{{ section.title | slugify }}-parallax-wrapper">
 			<div  id="{{ section.title | slugify }}-parallax" class="parallax-image parallax-image-before">
@@ -14,6 +13,7 @@ layout: default
 		</div>
 	{% endif %}
 	
+	<section id="{{ section.title | slugify }}">	
 		{% if section.hide_title != true %}
 			<h2 class="text-center"><span class="typed">{{ section.title }}</span></h2>
 		{% else %}	
@@ -21,6 +21,7 @@ layout: default
 		{% endif %}
 
 		{{ section.content }}
+	</section>
 	
 	{% if section.parallaxEnabled and section.parallaxBottom %}
 		<div id="{{ section.title | slugify }}-parallax-wrapper">
@@ -30,5 +31,4 @@ layout: default
 			</div>
 		</div>
 	{% endif %}
-	</section>
 {% endfor %}
