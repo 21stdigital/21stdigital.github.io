@@ -43,3 +43,69 @@ div.owl-item > div
   margin-top: 100px
   margin-bottom: 100px
   padding: 0
+
+.close-button 
+  display: inline-block
+  -webkit-box-sizing: content-box
+  -moz-box-sizing: content-box
+  box-sizing: content-box
+  width: 0.3em
+  height: 0.3em
+  position: relative
+  border: none
+  -webkit-border-radius: 1em
+  border-radius: 1em
+  font: normal 8em/normal Arial, Helvetica, sans-serif
+  color: rgba(0,0,0,1)
+  -o-text-overflow: clip
+  text-overflow: clip
+  background: rgba(255,255,255,0.8)
+  position: fixed
+  z-index: 10000
+  right: 2%
+  top: 2%
+
+
+
+.close-button::before 
+  display: inline-block
+  -webkit-box-sizing: content-box
+  -moz-box-sizing: content-box
+  box-sizing: content-box
+  width: 0.2em
+  height: 0.05em
+  position: absolute
+  content: ""
+  top: 0.126em
+  left: 0.055em
+  border: none
+  font: normal 100%/normal Arial, Helvetica, sans-serif
+  color: rgba(0,0,0,1)
+  -o-text-overflow: clip
+  text-overflow: clip
+  background: #000000
+  text-shadow: none
+  -webkit-transform: rotateZ(45deg)   
+  transform: rotateZ(45deg)
+
+
+.close-button::after 
+  display: inline-block
+  -webkit-box-sizing: content-box
+  -moz-box-sizing: content-box
+  box-sizing: content-box
+  width: 0.2em
+  height: 0.05em
+  position: absolute
+  content: ""
+  top: 0.125em
+  left: 0.055em
+  border: none
+  font: normal 100%/normal Arial, Helvetica, sans-serif
+  color: rgba(0,0,0,1)
+  -o-text-overflow: clip
+  text-overflow: clip
+  background: #000000
+  text-shadow: none
+  -webkit-transform: rotateZ(-45deg)   
+  transform: rotateZ(-45deg)
