@@ -9,16 +9,13 @@ teaser_img: /assets/images/projects/lufthansa/logo.png
 media:
   - url: /assets/images/projects/lufthansa/01.jpg
     type: image
-  - url: http://www.youtube.com/embed/tSD2L6Cwa-A
-    type: youtube
   - url: /assets/images/projects/lufthansa/02.jpg
     type: image
   - url: /assets/images/projects/lufthansa/03.jpg
     type: image
   - url: /assets/images/projects/lufthansa/04.jpg
     type: image
-  - url: http://www.youtube.com/embed/XYc2uJkadM8
-    type: youtube
+
 ---
 
 
