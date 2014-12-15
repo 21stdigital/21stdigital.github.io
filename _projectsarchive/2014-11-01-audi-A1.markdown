@@ -1,0 +1,24 @@
+---
+layout: project
+title:  Audi A1 e-Katalog
+date:   2014-11-24 17:02:35
+categories: jekyll update
+teaser: Entwicklung einer Katalog App, die die Möglichkeiten des iPads perfekt nutzt
+teaser_img: /assets/images/projects/audi_a1/logo.png
+
+media:
+  - url: /assets/images/projects/audi_a1/01.jpg
+    type: image
+  - url: http://www.youtube.com/embed/MSUpFZ9vAwQ?rel=0
+    type: youtube
+  - url: /assets/images/projects/audi_a1/02.jpg
+    type: image
+  - url: /assets/images/projects/audi_a1/03.jpg
+    type: image
+  - url: /assets/images/projects/audi_a1/04.jpg
+    type: image
+---
+
+
+###Hier ist dann der Content
+blablai iofhsdio fhiosfh sihdfo isdfhioshf sdhf soihdfos dfhsdf 
