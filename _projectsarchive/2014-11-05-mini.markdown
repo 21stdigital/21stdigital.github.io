@@ -1,11 +1,37 @@
 ---
-layout: default
+layout: project
 title:  Mini Coupé eCatalog
 date:   2014-11-24 17:02:35
 categories: jekyll update
 teaser: Entwicklung einer iPad App in Form eines Prototypen für den e-Katalog des BMW Mini Coupés
 
 teaser_img: /assets/images/projects/mini/logo.png
+thumb_img: /assets/images/projects/mini/thumb.jpg
+
+media:
+  - url: /assets/images/projects/mini/01.jpg
+    type: image
+  - url: /assets/images/projects/mini/02.jpg
+    type: image
+  - url: /assets/images/projects/mini/03.jpg
+    type: image
+  - url: /assets/images/projects/mini/04.jpg
+    type: image
+  - url: /assets/images/projects/mini/05.jpg
+    type: image           
+  - url: /assets/images/projects/mini/06.jpg
+    type: image
+  - url: /assets/images/projects/mini/07.jpg
+    type: image
+  - url: /assets/images/projects/mini/08.jpg
+    type: image
+  - url: /assets/images/projects/mini/09.jpg
+    type: image
+  - url: /assets/images/projects/mini/10.jpg
+    type: image
+  - url: /assets/images/projects/mini/11.jpg
+    type: image
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 

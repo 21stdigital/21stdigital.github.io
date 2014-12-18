@@ -6,7 +6,20 @@ teaser: customized Webshop für Owl Optics
 
 teaser_img: /assets/images/projects/owl/owl.gif
 thumb_img: /assets/images/projects/owl/thumb.jpg
+
+media:
+  - url: /assets/images/projects/owl/04.jpg
+    type: image
+    caption: 'Der Webshop von <a href="http://www.owloptics.com" target="_blank">Owl Optics</a>'
+  - url: /assets/images/projects/owl/01.jpg
+    type: image
+  - url: /assets/images/projects/owl/02.jpg
+    type: image
+  - url: /assets/images/projects/owl/03.jpg
+    type: image
+
 ---
+
 Die Brille ist viel mehr als nur eine Sehhilfe. Sie ist charaktergebend wie kein zweites Kleidungsstück. So gesehen ist die Entscheidung für eine neue Brille – wenn das Wortspiel gestattet ist – eine Entscheidung mit großer Tragweite. OWL-Gründer David Kamp hat sich zur Aufgabe gemacht, dieser Entscheidung etwas Leichtes und Sorgloses zu geben.
 
 Der Vertrieb von OWL Brillen ist genau so durchdacht wie Konzept und Design. Inklusive fast aller entspiegelter und gehärteter Korrektur- oder Sonnengläser, gibt es die OWL Modelle für 150 Euro. Ihr Nest ist der umsichtig gestaltete OWL Online Shop.

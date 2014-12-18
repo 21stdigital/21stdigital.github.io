@@ -7,6 +7,11 @@ teaser: iPad und iPhone App zut Erstellung von Aufträgen
 
 teaser_img: /assets/images/projects/carl_jensen/carl_jensen.png
 thumb_img: /assets/images/projects/carl_jensen/thumb.jpg
+
+media:
+  - url: /assets/images/projects/carl_jensen/01.jpg
+    type: image
+
 ---
 
 __"Tolle Jungs, diese Digital Boys! Gerne wieder."__ - _Sven Meyer, Geschäftsführer Carl Jensen_

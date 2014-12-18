@@ -1,0 +1,39 @@
+---
+layout: project
+title:  lhe Magazin
+date:   2014-11-24 17:02:35
+categories: jekyll update
+teaser: Adaption des lhe Board Magazins als interaktive iPad App
+teaser_img: /assets/images/projects/lhe/logo.png
+thumb_img: /assets/images/projects/audi2011/thumb.jpg
+
+media:
+  - url: /assets/images/projects/lhe/01.jpg
+    type: image
+  - url: /assets/images/projects/lhe/02.jpg
+    type: image
+  - url: /assets/images/projects/lhe/03.jpg
+    type: image
+  - url: /assets/images/projects/lhe/04.jpg
+    type: image
+  - url: /assets/images/projects/lhe/05.jpg
+    type: image
+  - url: /assets/images/projects/lhe/06.jpg
+    type: image
+  - url: /assets/images/projects/lhe/07.jpg
+    type: image
+  - url: /assets/images/projects/lhe/08.jpg
+    type: image
+  - url: /assets/images/projects/lhe/09.jpg
+    type: image
+  - url: /assets/images/projects/lhe/10.jpg
+    type: image
+
+
+---
+
+
+
+
+###Hier ist dann der Content
+blablai iofhsdio fhiosfh sihdfo isdfhioshf sdhf soihdfos dfhsdf 

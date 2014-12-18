@@ -6,6 +6,7 @@ categories: jekyll update
 teaser: Als Team in der Entwicklungsabteilung von AppVantage GmbH haben wir zusammen mehrere Apps für den Kunden Audi entwickelt. Dazu zählen zum einen der Audi A1 e-Katalog sowie die Geschäftsberichte 2011 und 2012.
 
 teaser_img: /assets/images/projects/audi2011/logo.png
+thumb_img: /assets/images/projects/audi2011/thumb.jpg
 
 media:
   - url: /assets/images/projects/audi2011/01.jpg
