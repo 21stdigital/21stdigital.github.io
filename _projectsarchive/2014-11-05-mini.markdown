@@ -3,7 +3,7 @@ layout: project
 title:  Mini Coupé eCatalog
 date:   2014-11-24 17:02:35
 categories: jekyll update
-teaser: Entwicklung einer iPad App in Form eines Prototypen für den e-Katalog des BMW Mini Coupés
+teaser: iPad App als Prototypen für den e-Katalog des BMW Mini Coupés
 
 teaser_img: /assets/images/projects/mini/logo.png
 thumb_img: /assets/images/projects/mini/thumb.jpg

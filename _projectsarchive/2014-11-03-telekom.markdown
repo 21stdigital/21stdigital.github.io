@@ -3,7 +3,7 @@ layout: project
 title:  BMW mini iPad App
 date:   2014-11-24 17:02:35
 categories: jekyll update
-teaser: Entwicklung der Mini Coupé eCatalog iPad App als Angestellter der Agentur <a href="http://appvantage.net">AppVantage GmbH</a>
+teaser: iPad App für T-Entertain
 
 teaser_img: /assets/images/projects/telekom/logo.png
 thumb_img: /assets/images/projects/telekom/thumb.jpg

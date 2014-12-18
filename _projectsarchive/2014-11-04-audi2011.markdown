@@ -3,7 +3,7 @@ layout: project
 title:  Audi Geschäftsbericht 2011
 date:   2014-11-24 17:02:35
 categories: jekyll update
-teaser: Als Team in der Entwicklungsabteilung von AppVantage GmbH haben wir zusammen mehrere Apps für den Kunden Audi entwickelt. Dazu zählen zum einen der Audi A1 e-Katalog sowie die Geschäftsberichte 2011 und 2012.
+teaser: Audi Geschäftsbericht als iPad und iPhone App
 
 teaser_img: /assets/images/projects/audi2011/logo.png
 thumb_img: /assets/images/projects/audi2011/thumb.jpg

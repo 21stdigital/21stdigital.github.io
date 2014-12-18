@@ -3,9 +3,9 @@ layout: project
 title:  lhe Magazin
 date:   2014-11-24 17:02:35
 categories: jekyll update
-teaser: Adaption des lhe Board Magazins als interaktive iPad App
+teaser: Adaption des Lufthansa Exclusive Board Magazins als interaktive iPad App
 teaser_img: /assets/images/projects/lhe/logo.png
-thumb_img: /assets/images/projects/audi2011/thumb.jpg
+thumb_img: /assets/images/projects/lhe/thumb.jpg
 
 media:
   - url: /assets/images/projects/lhe/01.jpg
