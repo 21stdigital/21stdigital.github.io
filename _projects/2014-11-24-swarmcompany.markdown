@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title:  "SWARMCOMPANY"
 date:   2014-11-24 17:02:35
 categories: jekyll update
@@ -8,22 +8,26 @@ teaser: social media App für iOS und android
 teaser_img: /assets/images/projects/swarmcompany/swarmcompany.png
 thumb_img: /assets/images/projects/swarmcompany/thumb.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+[SWARMCOMPANY](http://swarmcompany.com) ist eine interessante Kombination aus einer Social Media Plattform und einem Social Game. Die Nutzer können echtes Geld verdienen, indem sie die positiven Momente ihres Tages in Form von Bildern und Texten teilen. Diese Beiträge können von anderen Nutzern bewertet werden und je besser ein Beitrag bewertet wird, desto mehr Geld kann man verdienen. Das Ganze ist völlig anonym und die Inhalte werden nach einer Spielrunde, die wenige Tage dauert, wieder gelöscht.
 
-Jekyll also offers powerful support for code snippets:
+### Aufgabe
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Ziel war es, die Idee anhand eines bereits ausgearbeiteten Konzepts ganzheitlich als iPhone- und Android-App umzusetzen und ein Backend zu programmieren, welches die Kommunikation mit den Apps steuert und die Spielmechanik abbildet. Und das alles anonym, datengetrieben und visuell ansprechend.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Es ist also eine ganzheitliche Lösung gefordert und damit genau die richtige Aufgabe für uns!
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+### Lösung
+
+Das Herzstück und Gehirn der Anwendung ist das Backend, in dem alle relevanten Daten zusammenlaufen und die gesamte Spiellogik ihr Zuhause hat. Das Backend stellt für die iPhone-App und Android-App eine Schnittstelle bereit, um die Kommunikation zu vereinheitlichen. Entwickelt wurde das Backend mit Ruby on Rails, dass sich technologisch seit vielen Jahren für uns bewährt hat.
+
+Auf Basis der konzipierten Schnittstelle und des grafischen Konzepts wurde zunächst die iPhone-App entwickelt, die als "Vorlage" für die Android-App dienen soll. Die Programmierung der UI und der Datenschicht erfolgte parallel.
+{{ "scqt-na4w-uqpf" | image }}
+
+### Anonymität und KENNSTE
+### Spiellogik
+
+Herausgekommen ist eine schlanke App für das iPhone und Android, die Spaß macht.
+
+[Apple App Store](http://www.apple.com/)
+[Google Play Store](http://www.google.com/)

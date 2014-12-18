@@ -35,7 +35,7 @@
       $( window ).scroll(function() {
         var windowOffset = window.pageYOffset;
         
-        if (windowOffset > $(window).height() - 50) {
+        if (windowOffset > $(window).height() - 50 || isMobile()) {
           $('.navbar-default.navbar-21st').removeClass("transparent");
         }
         else
@@ -73,11 +73,10 @@
       
 
       if (isMobile()) {
-        $(".intro-wrapper video").remove();
-        var d = $(".intro-wrapper");
-        $(d).css("background", "url(/assets/images/overload.gif)");
-        $(d).css("background-size", "auto 100%");
-        $(d).css("background-position-x", "35%");
+        $(".intro-wrapper").remove();
+        
+        $(".logo").removeClass("sr-only");
+        $('.navbar-default.navbar-21st').removeClass("transparent");
       }
       
 

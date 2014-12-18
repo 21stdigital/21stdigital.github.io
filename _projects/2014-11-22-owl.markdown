@@ -7,22 +7,9 @@ teaser: customized Webshop für Owl Optics
 teaser_img: /assets/images/projects/owl/owl.gif
 thumb_img: /assets/images/projects/owl/thumb.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+Die Brille ist viel mehr als nur eine Sehhilfe. Sie ist charaktergebend wie kein zweites Kleidungsstück. So gesehen ist die Entscheidung für eine neue Brille – wenn das Wortspiel gestattet ist – eine Entscheidung mit großer Tragweite. OWL-Gründer David Kamp hat sich zur Aufgabe gemacht, dieser Entscheidung etwas Leichtes und Sorgloses zu geben.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Der Vertrieb von OWL Brillen ist genau so durchdacht wie Konzept und Design. Inklusive fast aller entspiegelter und gehärteter Korrektur- oder Sonnengläser, gibt es die OWL Modelle für 150 Euro. Ihr Nest ist der umsichtig gestaltete OWL Online Shop.
+Die Präsentation der Brillen auf den Produktseiten und im Lookbook des Shops vermittelt die hohen Ansprüche an Design und Qualität. Bei der Bestellung gibt der Käufer seinen Brillenpass ein und bekommt die für ihn optimalen Gläser angeboten. Im Backoffice wird der gesamte Bestellprozess übersichtlich abgebildet und kann leicht bedient werden. Die Contentpflege geschieht ebenfalls über das Backoffice und bietet unter anderem eine automatisierte Lösung zur device-spezifisch optimalen Auslieferung der Bilder.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Die großen Shopsysteme wie Magento & Co. tun sich schwer damit, diese Anforderungen mit einfachen Mitteln ad-hoc zu erfüllen. Die perfekte Lösung ist deshalb eine agil entwickelte, auf die speziellen Anforderungen des Kunden zugeschnittene Ruby on Rails Anwendung.
