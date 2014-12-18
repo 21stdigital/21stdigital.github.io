@@ -2,9 +2,10 @@
 layout: project
 title:  "OWL"
 date:   2014-11-24 17:02:35
-teaser: Die Brille ist viel mehr als nur eine Sehhilfe. Sie ist charaktergebend wie kein zweites Kleidungsstück. So gesehen ist die Entscheidung für eine neue Brille – wenn das Wortspiel gestattet ist – eine Entscheidung mit großer Tragweite.
+teaser: customized Webshop für Owl Optics
 
 teaser_img: /assets/images/projects/owl/owl.gif
+thumb_img: /assets/images/projects/owl/thumb.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
