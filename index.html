@@ -1,6 +1,7 @@
 ---
 layout: main
 ---
+<div>
 {% assign sections = site.sections | sort: 'index' %}
 {% for section in sections %}
 
@@ -32,3 +33,4 @@ layout: main
 		</div>
 	{% endif %}
 {% endfor %}
+</div>
