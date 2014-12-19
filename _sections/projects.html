@@ -16,13 +16,18 @@ parallaxBottom: true
                 <div class="row project-cases">
             {% endif %}
             <div class="col-md-4 project-case">
-                <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
                 <div class="text-center">
-                    <div class="image-wrapper">
-                        <img src="{{ project.teaser_img}}" class="case-logo" alt="{{ project.title }}"/>
-                    </div>
-                    <div class="project-teaser text-center">{{ project.teaser }} </div>
+                <div class="image-wrapper">
+                    <img src="{{ project.teaser_img}}" class="case-logo" alt="{{ project.title }}"/>
                 </div>
+                
+            </div>
+
+            <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
+                <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
+            </a>
+
+            <h5 class="text-center">{{ project.title }} </h5>
                 
             </div>
 
@@ -54,14 +59,20 @@ parallaxBottom: true
             {% endif %}
         <div class="col-md-4 project-case">
             
-            <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
+            
             
             <div class="text-center">
                 <div class="image-wrapper">
                     <img src="{{ project.teaser_img}}" class="case-logo" alt="{{ project.title }}"/>
                 </div>
-                <div class="project-teaser text-center">{{ project.teaser }} </div>
+                
             </div>
+
+            <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
+                <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
+            </a>
+
+            <h5 class="text-center">{{ project.title }} </h5>
             
         </div>
         {% if modulo == '2' or forloop.last %}
