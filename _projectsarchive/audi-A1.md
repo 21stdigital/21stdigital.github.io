@@ -6,6 +6,7 @@ service: Programmierung
 constellation: Freelancer // Mad Processor, Philipp & Keuntje
 
 teaser_img: /assets/images/projects/audi_a1/logo.png
+thumb_img: /assets/images/projects/audi_a1/thumb.jpg
 
 media:
   - url: /assets/images/projects/audi_a1/01.jpg
@@ -18,9 +19,6 @@ media:
     type: image
   - url: /assets/images/projects/audi_a1/04.jpg
     type: image
-
-
-
 ---
 
 Wir haben ein iOS Framework entwickelt. Toll.

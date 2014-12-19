@@ -6,9 +6,18 @@ service: Gesamte technische Konzeption & Entwicklung
 constellation: 21st digital
 
 teaser_img: /assets/images/projects/swarmcompany/swarmcompany.png
+thumb_img: /assets/images/projects/swarmcompany/thumb.jpg
 
 media:
   - url: /assets/images/projects/swarmcompany/01.jpg
+    type: image
+  - url: /assets/images/projects/swarmcompany/02.jpg
+    type: image
+  - url: /assets/images/projects/swarmcompany/03.jpg
+    type: image
+  - url: /assets/images/projects/swarmcompany/04.jpg
+    type: image
+  - url: /assets/images/projects/swarmcompany/05.jpg
     type: image
 
 ---

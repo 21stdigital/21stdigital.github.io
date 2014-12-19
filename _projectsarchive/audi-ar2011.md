@@ -6,6 +6,7 @@ service: Technische Konzeption & Entwicklung
 constellation: Entwicklungsteam // AppVantage
 
 teaser_img: /assets/images/projects/audi2011/logo.png
+thumb_img: /assets/images/projects/audi2011/thumb.jpg
 
 media:
   - url: /assets/images/projects/audi2011/01.jpg
@@ -42,5 +43,3 @@ media:
     type: image
 
 ---
-
-Hallo

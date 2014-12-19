@@ -6,6 +6,7 @@ service: Gesamte technische Konzeption & Entwicklung
 constellation: 21st digital
 
 teaser_img: /assets/images/projects/owl/owl.gif
+thumb_img: /assets/images/projects/owl/thumb.jpg
 
 media:
   - url: /assets/images/projects/owl/04.jpg

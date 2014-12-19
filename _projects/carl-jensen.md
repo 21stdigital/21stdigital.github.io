@@ -6,6 +6,7 @@ service: Gesamte technische Konzeption & Entwicklung
 constellation: 21st digital
 
 teaser_img: /assets/images/projects/carl_jensen/carl_jensen.png
+thumb_img: /assets/images/projects/carl_jensen/thumb.jpg
 
 media:
   - url: /assets/images/projects/carl_jensen/01.jpg
