@@ -4,8 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12 col-md-8 col-md-offset-2">
-          <h3>{{ page.title }}</h2> 
-          <p>{{ page.teaser }}</p> 
+          <h3>{{ page.title }}</h3> 
         </div>
     </div>
     <div class="row">
@@ -24,6 +23,20 @@
     <div class="row">
         <div class="col-sm-12 col-md-8 col-md-offset-2">
           {{ content }}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+          <h3>Facts</h3>
+          <dl>
+            <dt>Technologie:</dt>
+            <dd>{{ page.technology }}</dd>
+            <dt>Leistung:</dt>
+            <dd>{{ page.service }}</dd>
+            <dt>Konstellation:</dt>
+            <dd>{{ page.constellation }}</dd>
+          </dl>
         </div>
     </div>
 </div>

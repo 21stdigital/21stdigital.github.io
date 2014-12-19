@@ -1,9 +1,9 @@
 ---
 layout: project
-title:  "OWL"
-date:   2014-11-24 17:02:35
-teaser_title: "Webshop"
-teaser: Wir haben für das Berliner Brillen-Label OWL Optics einen Webshop entwickelt, der auf die speziellen Anforderungen des Labels zugeschnitten ist.
+title:  "OWL Optics"
+technology: iOS
+service: Gesamte technische Konzeption & Entwicklung
+constellation: 21st digital
 
 teaser_img: /assets/images/projects/owl/owl.gif
 

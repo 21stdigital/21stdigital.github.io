@@ -1,9 +1,9 @@
 ---
 layout: project
 title:  "Carl Jensen"
-date:   2014-11-24 17:02:35
-categories: jekyll update
-teaser: Für den Hamburger Traditionsbetrieb und Spezialisten für Bodenbelege haben wir eine Enterprise iPad App entwickelt, die den gesamten Prozess der Projektverwaltung beschleunigt und dabei noch Spaß macht.
+technology: iOS
+service: Gesamte technische Konzeption & Entwicklung
+constellation: 21st digital
 
 teaser_img: /assets/images/projects/carl_jensen/carl_jensen.png
 

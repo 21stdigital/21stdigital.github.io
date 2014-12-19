@@ -1,9 +1,10 @@
 ---
 layout: project
-title:  Audi A1 e-Katalog
-date:   2014-11-24 17:02:35
-categories: jekyll update
-teaser: Entwicklung einer Katalog App, die die Möglichkeiten des iPads perfekt nutzt
+title:  Audi A1 eKatalog
+technology: iOS
+service: Programmierung
+constellation: Freelancer // Mad Processor, Philipp & Keuntje
+
 teaser_img: /assets/images/projects/audi_a1/logo.png
 
 media:
@@ -17,8 +18,9 @@ media:
     type: image
   - url: /assets/images/projects/audi_a1/04.jpg
     type: image
+
+
+
 ---
 
-
-###Hier ist dann der Content
-blablai iofhsdio fhiosfh sihdfo isdfhioshf sdhf soihdfos dfhsdf 
+Wir haben ein iOS Framework entwickelt. Toll.

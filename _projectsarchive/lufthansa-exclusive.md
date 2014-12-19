@@ -1,9 +1,9 @@
 ---
 layout: project
-title:  Lufthansa Magazin
-date:   2014-11-24 17:02:35
-categories: jekyll update
-teaser: Adaption des Lufthansa Board Magazins als interaktive iPad App
+title:  Lufthansa Exclusive
+technology: iOS, Ruby on Rails
+service: Framework, Gesamte technische Konzeption & Entwicklung
+constellation: Entwicklerteam // AppVantage
 teaser_img: /assets/images/projects/lufthansa/logo.png
 
 media:
@@ -18,8 +18,4 @@ media:
 
 ---
 
-
-
-
-###Hier ist dann der Content
 blablai iofhsdio fhiosfh sihdfo isdfhioshf sdhf soihdfos dfhsdf 

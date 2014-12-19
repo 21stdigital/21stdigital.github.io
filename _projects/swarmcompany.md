@@ -1,9 +1,9 @@
 ---
 layout: project
 title:  "SWARMCOMPANY"
-date:   2014-11-24 17:02:35
-categories: jekyll update
-teaser: Wir haben für das Social Media Startup nicht nur eine iPhone & Android App samt Backend entwickelt, sondern es auch vom MVP bis zum Launch technisch begleitet.
+technology: iOS
+service: Gesamte technische Konzeption & Entwicklung
+constellation: 21st digital
 
 teaser_img: /assets/images/projects/swarmcompany/swarmcompany.png
 
