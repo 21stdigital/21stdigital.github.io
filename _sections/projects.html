@@ -1,5 +1,5 @@
 ---
-title: Projekte 
+title: Referenzen 
 index: 2
 parallaxEnabled: true
 parallaxImage: /assets/images/projects_bg.jpg
@@ -28,7 +28,6 @@ parallaxBottom: true
    
     <div class="row">
         <div class="col-sm-12 col-md-8 col-md-offset-2">
-            <h2 class="text-center"><span class="typed">Referenzen</span></h2>
             <p class="project-archive-text">
                 Vor der Gründung von 21st digital waren wir als Team an folgenden Projekten in verschiedenen Konstellationen beteiligt:
             </p>
@@ -36,28 +35,25 @@ parallaxBottom: true
     </div>
 
     
-
+    <div class="owl-carousel" id="owl-project-archive">
+        {% for project in site.projectsarchive %}
+            <div class="project item">
+                <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
+                    <img src="{{ project.teaser_img}}" class="img-responsive" alt="{{ project.title }}"/>
+                </a>
+                <div class="text">
+                    <h3>
+                      <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+                    </h3>
+                    <div class="project-teaser">{{ project.teaser }} </div>
+                    <!-- <a href="{{ project.url | prepend: site.baseurl }}">weiterlesen</a> -->
+                </div>
+            </div>
+        {% endfor %}
+    </div>
     
 
 </div>
 
 
-<div class="container">
-    <div class="owl-carousel" id="owl-project-archive">
-        {% for project in site.projectsarchive %}
-        <div class="project item">
-            <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
-                <img src="{{ project.teaser_img}}" class="img-responsive" alt="{{ project.title }}"/>
-            </a>
-            <div class="text">
-                <h3>
-                  <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-                </h3>
-                <div class="project-teaser">{{ project.teaser }} </div>
-                <!-- <a href="{{ project.url | prepend: site.baseurl }}">weiterlesen</a> -->
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-
-</div>
+    
