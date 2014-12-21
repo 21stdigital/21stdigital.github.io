@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "OWL Optics"
+title:  Web Shop
 technology: iOS
 service: Gesamte technische Konzeption & Entwicklung
 constellation: 21st digital

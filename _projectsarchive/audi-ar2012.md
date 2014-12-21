@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  Geschäftsbericht 2012 (iPhone & iPad)
+title:  Geschäftsbericht 2012
 technology: iOS
 service: Gesamte technische Konzeption & Entwicklung
 constellation: Entwicklungsteam // AppVantage

@@ -1,9 +1,9 @@
 ---
 layout: project
 title:  Lufthansa Exclusive
-technology: iOS, Ruby on Rails
-service: Framework, Gesamte technische Konzeption & Entwicklung
-constellation: Entwicklerteam // AppVantage
+technology: InDesign, ActionScript 3, iOS, HTML5, CSS3 JavaScript, jQuery, Ruby on Rails
+service: Konzeption und Entwicklung App Publishing Framework, Gesamte technische Beratung, Konzeption & Entwicklung
+constellation: Entwicklerteam // AppVantage, 21st digital
 teaser_img: /assets/images/projects/lhe/logo.png
 thumb_img: /assets/images/projects/lhe/thumb.jpg
 

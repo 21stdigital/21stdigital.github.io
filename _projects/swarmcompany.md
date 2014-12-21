@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "SWARMCOMPANY"
+title:  SWARMCOMPANY
 technology: iOS
 service: Gesamte technische Konzeption & Entwicklung
 constellation: 21st digital

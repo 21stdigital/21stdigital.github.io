@@ -1,9 +1,9 @@
 ---
 layout: project
-title:  Audi A1 eKatalog
-technology: iOS
+title:  A1 eKatalog
+technology: iOS, XML
 service: Programmierung
-constellation: Freelancer // Mad Processor, Philipp & Keuntje
+constellation: Freelancer // Mad Processor GmbH, Philipp & Keuntje GmbH
 
 teaser_img: /assets/images/projects/audi_a1/logo.png
 thumb_img: /assets/images/projects/audi_a1/thumb.jpg
@@ -21,4 +21,4 @@ media:
     type: image
 ---
 
-Wir haben ein iOS Framework entwickelt. Toll.
+Wir haben als Freelancer im Team mit Mad Processor für die Agentur Philipp & Keuntje ein Content-Framework für die Audi A1 eKatalog App entwickelt, um die Inhalte der App wie Videos, Grafiken und Sounds anzuordnen und interatkiv darzustellen.
