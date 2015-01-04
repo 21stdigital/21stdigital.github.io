@@ -1,0 +1,42 @@
+@mixin border-radius($radius)
+	border-radius: $radius
+	-o-border-radius: $radius
+	-ms-border-radius: $radius
+	-moz-border-radius: $radius
+	-webkit-border-radius: $radius
+	
+@mixin box-shadow($x, $y, $spread, $color)
+	box-shadow: $x $y $spread $color
+	-o-box-shadow: $x $y $spread $color
+	-ms-box-shadow: $x $y $spread $color
+	-moz-box-shadow: $x $y $spread $color
+	-webkit-box-shadow: $x $y $spread $color
+
+@mixin respond-to($min-width, $max-width)
+	@media only screen and (min-width: $min-width) and (max-width: $max-width - 1) 
+		@content
+
+// Keyframe animation
+@mixin keyframes($animation-name)
+	@-webkit-keyframes #{$animation-name}
+		@content
+	@-moz-keyframes #{$animation-name}
+		@content
+	@-ms-keyframes #{$animation-name}
+		@content
+	@keyframes #{$animation-name}
+		@content
+
+// typed_cursor_blinking
+@include keyframes(blink)
+	0%
+		opacity: 1
+	50%
+		opacity: 0
+	100%
+		opacity: 1
+
+@mixin typed_cursor_blink($duration)
+	-webkit-animation: blink $duration infinite
+	-moz-animation: blink $duration infinite
+	animation: blink $duration infinite

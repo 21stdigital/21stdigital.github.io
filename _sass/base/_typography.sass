@@ -1,0 +1,83 @@
+body
+    color: $color-secondary
+    font-family: $font-primary
+    font-size: $font-size-default
+    line-height: $line-height-default
+    text-align: justify
+
+%header 
+    color: $color-primary
+    font-family: $font-secondary
+    font-weight: $font-weight-header
+    font-size: 2.25em
+    text-decoration: none
+
+h1
+    @extend %header
+    font-size: $font-size-h1
+    padding-top: 45px
+
+h2
+    @extend %header
+    font-size: $font-size-h2
+    padding-top: 70px
+    padding-bottom: 50px
+    span
+        @include respond-to(0, $xs-device-width)
+            font-size: 0.50em
+        @include respond-to($xs-device-width, $sm-device-width)
+            font-size: 0.75em
+        @include respond-to($sm-device-width, $md-device-width)
+            font-size: 1.00em
+
+h3
+    @extend %header
+    font-size: $font-size-h3
+
+h4
+    @extend %header
+    font-size: $font-size-h4
+    text-transform: none
+
+h5
+    @extend %header
+    font-size: $font-size-h5
+
+h6
+    @extend %header
+    font-size: $font-size-h6
+    text-transform: none
+
+
+p
+    font-size: $font-size-p
+
+
+%default-link 
+    color: $color-dark
+    font-weight: bolder
+
+a, a:link, a:visited
+    @extend %default-link
+
+    &.mailto
+        color: $color-dark
+        font-weight: normal
+
+
+a:hover 
+    @extend %default-link
+    color: $color-highlight
+
+a:active
+    @extend %default-link
+    color: $color-highlight
+
+
+.nav
+    li
+        a, a:link, a:visited, a:active
+            font-weight: normal 
+            text-transform: uppercase
+
+

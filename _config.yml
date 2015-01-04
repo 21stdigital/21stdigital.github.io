@@ -1,46 +1,29 @@
 # Site settings
-title: "21st digital | we build software that matters"
-email: hello@21stdigital.de
-description: ""
-baseurl: ""
-url: "http://www.21stdigital.de"
-author: "21st digital GmbH"
+title: 21st digital
+email: hello@21st.digital
+email_fabian: fabian@21st.digital
+email_philip: philip@21st.digital
+email_andres: andres@21st.digital
+email_steffen: steffen@21st.digital
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://21st.digital" # the base hostname & protocol for your site
 
-intro_heading: "Information overload?"
-intro_copy: "Wir entwickeln einfache und ästhetische Software für den Mobile- und Web-Bereich"
+twitter_username: 21stdigital
+github_username:  21stdigital
+
+exclude: [Gemfile, Gemfile.lock]
 
 # Build settings
 markdown: kramdown
-permalink: pretty
-exclude: ["CNAME", "Gemfile", "Gemfile.lock"]
 
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
-      author: "21st digital GmbH"
-
-base_path: "/"
-asset_path: "/assets/"
-image_path: "/assets/images/"
-video_path: "/assets/videos/"
-css_path: "/assets/css/"
-js_path: "/assets/js/"
-plugin_path: "/assets/plugins/"
-
-
-# Google Maps settings
-google_maps:
-  latitude: 53.545951
-  longitude: 10.007679
-  options:
-    zoom: 14
-    center: latlng
-    scrollwheel: false
-    scaleControl: false
-    disableDefaultUI: false
-    draggable: false
-    mapTypeId: "google.maps.MapTypeId.ROADMAP"
-  contentString: "\"<b>21st digital GmbH</b><br>Oberhafenstraße 1<br> 20097 Hamburg\""
+# Collections
+collections:
+  sections:
+  projects:
+    output: true
+  projectsarchive:
+    output: true

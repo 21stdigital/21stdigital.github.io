@@ -1,0 +1,117 @@
+---
+title: Projekte 
+index: 2
+parallaxEnabled: true
+parallaxImage: /assets/images/projects_bg.jpg
+parallaxSpeed: 0.2
+parallaxBottom: true
+---
+
+<div class="container">
+
+    <div class="owl-carousel visible-xs-block" id="owl-projects">
+        {% for project in site.projects %}
+        <div class="project item">
+            <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
+                <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
+            </a>
+            <div class="text">
+                <h3>
+                  <!--<a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.teaser_title }}</a>-->
+                </h3>
+                <div class="project-teaser">{{ project.teaser }} </div>
+                <!-- <a href="{{ project.url | prepend: site.baseurl }}">weiterlesen</a> -->
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+        {% for project in site.projects %}
+        {% capture modulo %}{{ forloop.index | mod:4 }}{% endcapture %}
+            {% if modulo == '0' or forloop.first %}
+                <div class="row project-cases hidden-xs">
+            {% endif %}
+            <div class="col-sm-4 project-case">
+                <div class="text-center">
+                <div class="image-wrapper">
+                    <img src="{{ project.teaser_img}}" class="case-logo" alt="{{ project.title }}"/>
+                </div>
+                
+            </div>
+
+            <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
+                <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
+            </a>
+
+            <h5 class="text-center">{{ project.title }} </h5>
+                
+            </div>
+
+            {% if modulo == '3' or forloop.last %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    
+
+
+    
+
+   
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+            <p class="project-archive-text">
+                Vor der Gründung von 21st digital waren wir als Team an folgenden Projekten in verschiedenen Konstellationen beteiligt:
+            </p>
+        </div>
+    </div>
+
+    
+
+    <div class="owl-carousel visible-xs-block" id="owl-project-archive">
+        {% for project in site.projectsarchive %}
+            <div class="project item">
+                <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
+                    <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
+                </a>
+                <div class="text">
+                    <h3>
+                      <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+                    </h3>
+                    <div class="project-teaser">{{ project.teaser }} </div>
+                    <!-- <a href="{{ project.url | prepend: site.baseurl }}">weiterlesen</a> -->
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+   
+        {% for project in site.projectsarchive %}
+        {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+            {% if modulo == '0' or forloop.first %}
+                <div class="row project-cases hidden-xs">
+            {% endif %}
+        <div class="col-sm-4 project-case">
+            
+            
+            
+            <div class="text-center">
+                <div class="image-wrapper">
+                    <img src="{{ project.teaser_img}}" class="case-logo" alt="{{ project.title }}"/>
+                </div>
+                
+            </div>
+
+            <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
+                <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
+            </a>
+
+            <h5 class="text-center">{{ project.title }} </h5>
+            
+        </div>
+        {% if modulo == '2' or forloop.last %}
+                </div>
+            {% endif %}
+        {% endfor %}
+   
+
+</div>

@@ -1,0 +1,64 @@
+
+<a href="#" onclick="closeColorbox(event)" class="close-button"></a>
+  
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+          <h3>{{ page.title }}</h3> 
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+        <div class="owl-carousel" id="owl-project-gallery">
+          {% for asset in page.media %}
+            <div class="item">
+              {% include media.html param=asset %}
+              <p>{{ asset.caption }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+          {{ content }}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+          <h3>Facts</h3>
+          <dl>
+            <dt>Technologie:</dt>
+            <dd>{{ page.technology }}</dd>
+            <dt>Leistung:</dt>
+            <dd>{{ page.service }}</dd>
+            <dt>Konstellation:</dt>
+            <dd>{{ page.constellation }}</dd>
+          </dl>
+        </div>
+    </div>
+</div>
+
+    
+
+
+<script>
+  $("#owl-project-gallery").owlCarousel({
+    items: 1,
+    itemsDesktop : [1000,1],
+    itemsDesktopSmall : [980,1],
+    itemsTablet: [768,1],
+    itemsMobile : [680,1],
+    itemsScaleUp : true,
+    navigation: true,
+    autoHeight: true,
+    navigationText: ["<<", ">>"]
+  });
+
+  function closeColorbox(event) {
+    event.preventDefault(); 
+    $.colorbox.close();
+  }
+</script>

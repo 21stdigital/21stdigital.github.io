@@ -1,0 +1,221 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+@import "vendors/all";
+@import "helpers/all";
+@import "base/all";
+@import "modules/all";
+@import "layouts/all";
+
+
+/*
+
+
+//======================
+// TYPED
+//======================
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    // padding-left: 10px;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+//======================
+// PARLLAX
+//======================
+
+{% for section in site.sections %}
+  {% if section.parallaxEnabled %}
+  #{{ section.title | slugify }}-parallax {
+    //background:url({{section.parallaxImage}}) 50% 0 no-repeat fixed;
+    //height: 50vh;
+   // background-size: auto 100vh;
+    position: relative;
+  }
+  .overlay {
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  {% endif %}
+{% endfor %}
+
+
+
+.parallax-logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: 150px;
+}
+
+
+//======================
+// LOGO
+//======================
+
+.owl-carousel .item {
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  .text {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.4em;
+    text-align: justify;
+  }
+}
+
+//======================
+// LOGO
+//======================
+
+#logo {
+  //position: fixed;
+  z-index: 500;
+  width: 200px;
+  height: auto;
+  top: 100px;
+  left: 50px;
+
+  img {
+    width: 100%;
+  }
+}
+
+
+
+//======================
+// GENERAL
+//======================
+
+
+
+body {
+  font-family: $font-courir;
+  font-size: 18px;
+  color: $color-dark-grey;
+  line-height: 1.6em;
+}
+
+@keyframes blink {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1s step-start 0s infinite;
+} 
+
+/*
+
+.row {
+  padding-bottom: 100px;
+}
+
+.parallax-image {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+//======================
+// PARLLAX
+//======================
+
+{% for section in site.sections %}
+  {% if section.parallaxEnabled %}
+  #{{ section.title | slugify }}-parallax {
+    //background:url({{section.parallaxImage}}) 50% 0 no-repeat fixed;
+    //height: 50vh;
+   // background-size: auto 100vh;
+    position: relative;
+  }
+  .overlay {
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  {% endif %}
+{% endfor %}
+
+
+
+.parallax-logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: 150px;
+}
+
+
+//======================
+// LOGO
+//======================
+
+.owl-carousel .item {
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  .text {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.4em;
+    text-align: justify;
+  }
+}
+
+//======================
+// LOGO
+//======================
+
+#logo {
+  //position: fixed;
+  z-index: 500;
+  width: 200px;
+  height: auto;
+  top: 100px;
+  left: 50px;
+
+  img {
+    width: 100%;
+  }
+}
+
+*/
