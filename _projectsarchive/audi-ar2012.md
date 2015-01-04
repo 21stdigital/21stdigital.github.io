@@ -40,4 +40,4 @@ media:
 
 ---
 
-Hallo
+Auch die iPhone und iPad App des Geschäftsberichts 2012 der Audi AG wurde von uns technisch konzipiert und umgesetzt. Neben der Aufbereitung der Inhalte stand hier ein digitaler Nachbau der Boardkonsole (MMI) des Audis im Fokus.

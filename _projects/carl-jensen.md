@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  Projektverwaltung App
+title:  Projektverwaltung
 technology: iOS
 service: Gesamte technische Konzeption & Entwicklung
 constellation: 21st digital

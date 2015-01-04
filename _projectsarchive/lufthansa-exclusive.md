@@ -30,4 +30,4 @@ media:
     type: image
 ---
 
-blablai iofhsdio fhiosfh sihdfo isdfhioshf sdhf soihdfos dfhsdf 
+Die Digitalversion von Lufthansa exclusive als Web App und iPad App ist das Resultat einer crossmedialen, digitalen Publishing Lösung, die wir als Entwicklerteam entwickelt haben.

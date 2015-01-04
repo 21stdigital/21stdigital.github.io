@@ -47,4 +47,4 @@ media:
 
 ---
 
-Anlässlich des jährlichen Geschäftsberichts der Audi AG haben wir als Entwicklerteam sowohl eine iPhone als auch eine iPad App technisch konzipiert und entwickelt.
+Der Geschäftsbericht 2011 der Audi AG wurde neben einem Printkatalog auch als iPhone und iPad App umgesetzt, die zusätzlich multimedial aufbereitet wurde. Herzstück des Geschäftsbericht ist eine 3D Wall aus Videos, Audiobeiträgen und Bildern.
