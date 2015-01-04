@@ -15,7 +15,7 @@ url: "http://21st.digital" # the base hostname & protocol for your site
 twitter_username: 21stdigital
 github_username:  21stdigital
 
-exclude: [Gemfile, Gemfile.lock]
+exclude: [Gemfile, Gemfile.lock, CNAME]
 
 # Build settings
 markdown: kramdown
