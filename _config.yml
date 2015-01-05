@@ -25,3 +25,20 @@ collections:
     output: true
   projectsarchive:
     output: true
+
+gems:
+  - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: ""
+      type: "projectsarchive"
+    values:
+      sitemap: false      
