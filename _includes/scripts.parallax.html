@@ -14,21 +14,23 @@
 
       var paralaxDiv;
       
-      {% for section in site.sections %}
-        {% if section.parallaxEnabled %}
-          paralaxDiv = $('#{{ section.title | slugify }}-parallax');
-          paralaxWrapper = $('#{{ section.title | slugify }}-parallax-wrapper');
-          paralaxLogoDiv = $('.parallax-logo');
-          if (!isMobile()) {
-            paralaxDiv.css("background", "url({{section.parallaxImage}}) no-repeat fixed");
-            paralaxDiv.css("height", "46vw");
-            paralaxLogoDiv.css("background", "url(/assets/images/logo.png) no-repeat fixed");
-          }
-          else {
-            paralaxWrapper.html('<img src="{{section.parallaxImage}}" class="img-responsive" />');
-          }
-        {% endif %}
-      {% endfor %}
+      if (!isMobile) {
+        {% for section in site.sections %}
+          {% if section.parallaxEnabled %}
+            paralaxDiv = $('#{{ section.title | slugify }}-parallax');
+            paralaxWrapper = $('#{{ section.title | slugify }}-parallax-wrapper');
+            paralaxLogoDiv = $('.parallax-logo');
+            if (!isMobile()) {
+              paralaxDiv.css("background", "url({{section.parallaxImage}}) no-repeat fixed");
+              paralaxDiv.css("height", "46vw");
+              paralaxLogoDiv.css("background", "url(/assets/images/logo.png) no-repeat fixed");
+            }
+            else {
+              paralaxWrapper.html('<img src="{{section.parallaxImage}}" class="img-responsive" />');
+            }
+          {% endif %}
+        {% endfor %}
+      }
       
 
       
