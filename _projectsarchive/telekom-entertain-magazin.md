@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  Entertain - Das Magazin
-technology: iOS
+technology: iOS, SOAP, IPTV
 service: Gesamte technische Konzeption & Entwicklung
 constellation: Entwicklerteam // AppVantage
 
@@ -34,4 +34,4 @@ media:
 
 ---
 
-Hallo
+Die Entertain iPad App ist mehr als nur eine Adaption der vierteljährlich erscheinenden Programmzeitschrift der Telekom. Die App bietet neben der reinen Programmübersicht für IPTV-Kunden auch die Möglichkeit zur Aufnahme von Sendungen aus der App. Inhalte werden zudem in Form einer 3D Cloud für den User erlebbar gemacht.

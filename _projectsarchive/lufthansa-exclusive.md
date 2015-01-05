@@ -1,9 +1,9 @@
 ---
 layout: project
 title:  Lufthansa Exclusive
-technology: iOS, Ruby on Rails
-service: Framework, Gesamte technische Konzeption & Entwicklung
-constellation: Entwicklerteam // AppVantage
+technology: InDesign, ActionScript 3, iOS, HTML5, CSS3 JavaScript, jQuery, Ruby on Rails
+service: Konzeption und Entwicklung App Publishing Framework, Gesamte technische Beratung, Konzeption & Entwicklung
+constellation: Entwicklerteam // AppVantage, 21st digital
 teaser_img: /assets/images/projects/lhe/logo.png
 thumb_img: /assets/images/projects/lhe/thumb.jpg
 
@@ -30,4 +30,4 @@ media:
     type: image
 ---
 
-blablai iofhsdio fhiosfh sihdfo isdfhioshf sdhf soihdfos dfhsdf 
+Die Digitalversion von Lufthansa exclusive als Web App und iPad App ist das Resultat einer crossmedialen, digitalen Publishing Lösung, die wir als Entwicklerteam entwickelt haben.
