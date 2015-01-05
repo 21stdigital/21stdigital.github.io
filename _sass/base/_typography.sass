@@ -3,7 +3,7 @@ body
     font-family: $font-primary
     font-size: $font-size-default
     line-height: $line-height-default
-    text-align: justify
+    text-align: left
 
 %header 
     color: $color-primary
@@ -16,6 +16,9 @@ h1
     @extend %header
     font-size: $font-size-h1
     padding-top: 45px
+
+    @include respond-to(0, $xs-device-width)
+        font-size: 3.250em
 
 h2
     @extend %header

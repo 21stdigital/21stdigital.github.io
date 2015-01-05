@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  A1 eKatalog
+title:  Audi A1 eKatalog
 technology: iOS, XML
 service: Programmierung
 constellation: Freelancer // Mad Processor GmbH, Philipp & Keuntje GmbH
@@ -11,8 +11,6 @@ thumb_img: /assets/images/projects/audi_a1/thumb.jpg
 media:
   - url: /assets/images/projects/audi_a1/01.jpg
     type: image
-  - url: /assets/images/projects/audi_a1/02.jpg
-    type: image
   - url: /assets/images/projects/audi_a1/03.jpg
     type: image
   - url: /assets/images/projects/audi_a1/04.jpg
@@ -21,11 +19,7 @@ media:
     type: image
   - url: /assets/images/projects/audi_a1/06.jpg
     type: image
-  - url: /assets/images/projects/audi_a1/07.jpg
-    type: image
   - url: /assets/images/projects/audi_a1/08.jpg
-    type: image
-  - url: /assets/images/projects/audi_a1/09.jpg
     type: image
   - url: /assets/images/projects/audi_a1/10.jpg
     type: image

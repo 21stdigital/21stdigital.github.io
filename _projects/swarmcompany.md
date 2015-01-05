@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  SWARMCOMPANY
-technology: iOS
+title:  Social Media App
+technology: iOS, Android, Ruby on Rails, Amazon Web Services
 service: Gesamte technische Konzeption & Entwicklung
 constellation: 21st digital
 

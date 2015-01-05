@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  Web Shop
-technology: iOS
+title:  Online Shop
+technology: Ruby on Rails
 service: Gesamte technische Konzeption & Entwicklung
 constellation: 21st digital
 

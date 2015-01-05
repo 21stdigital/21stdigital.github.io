@@ -25,9 +25,9 @@
                 	{% for section in sections %}
                 	<li>
                         {% if page.layout == 'main' %}
-                            <a href="#{{ section.title || slugify }}"><span data-hover="{{section.title}}">{{ section.title}}</span></a>
+                            <a href="#{{ section.title || slugify }}" title="{{section.title}}"><span data-hover="{{section.title}}">{{ section.title}}</span></a>
                         {% else %}
-                            <a href="/#{{ section.title || slugify }}"><span data-hover="{{section.title}}">{{ section.title}}</span></a>
+                            <a href="/#{{ section.title || slugify }}" title="{{section.title}}"><span data-hover="{{section.title}}">{{ section.title}}</span></a>
                         {% endif %}    
 
                     </li>

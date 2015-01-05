@@ -6,9 +6,7 @@ email_philip: philip@21st.digital
 email_andres: andres@21st.digital
 email_steffen: steffen@21st.digital
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Wir sind eine digitale Task-Force im Mobile- und Web-Bereich und entwickeln Software von der einfachen App und Website bis zum komplexen Anwendungssystem.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://21st.digital" # the base hostname & protocol for your site
 
