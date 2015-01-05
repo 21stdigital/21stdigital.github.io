@@ -3,11 +3,14 @@
         $('#menu').ddscrollSpy({ // initialize first demo
             scrolltopoffset: -50,
         });
-
-      var isMobile = function () {
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)      
-      }
         
+      var isMobile = function () {
+                  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)      
+                }
+
+      $('.nav a').on('click', function(){
+        $(".navbar-toggle").click() //bootstrap 3.x by Richard
+      });
 
       var paralaxDiv;
       
@@ -77,6 +80,8 @@
         
         $(".mobile-logo-wrapper").removeClass("sr-only");
         $('.navbar-default.navbar-21st').removeClass("transparent");
+      } else {
+        $(".intro-wrapper").removeClass("sr-only");
       }
       
 
