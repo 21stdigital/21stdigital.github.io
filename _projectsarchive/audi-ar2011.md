@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  Geschäftsbericht 2011
+title:  Audi Geschäftsbericht 2011
 technology: iOS
 service: Technische Konzeption & Entwicklung
 constellation: Entwicklungsteam // AppVantage

@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  Lufthansa Exclusive
+title:  Lufthansa Exclusive Magazin
 technology: InDesign, ActionScript 3, iOS, HTML5, CSS3 JavaScript, jQuery, Ruby on Rails
 service: Konzeption und Entwicklung App Publishing Framework, Gesamte technische Beratung, Konzeption & Entwicklung
 constellation: Entwicklerteam // AppVantage, 21st digital

@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  Entertain - Das Magazin
+title: Telekom Entertain - Das Magazin
 technology: iOS, SOAP, IPTV
 service: Gesamte technische Konzeption & Entwicklung
 constellation: Entwicklerteam // AppVantage
