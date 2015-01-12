@@ -4,6 +4,8 @@ title:  Lufthansa Magazin
 technology: iOS
 service: Programmierung, Technische Konzeption & Beratung, Kontinuierliche Weiterentwicklung, Specials von 2010 bis 2014
 constellation: Initial als Freelancer // Department M, Entwicklerteam // AppVantage
+link: https://itunes.apple.com/de/app/lufthansa-magazin/id405521885?mt=8&uo=4
+link_description: Apple App Store
 
 awards:
   - title: Annual Multimedia Award (Silber, 2013) 

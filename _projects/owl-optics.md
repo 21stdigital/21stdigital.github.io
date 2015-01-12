@@ -4,14 +4,15 @@ title:  Online Shop
 technology: Ruby on Rails
 service: Gesamte technische Konzeption & Entwicklung
 constellation: 21st digital
+link: http://www.owloptics.com
+link_description: OWL Optics Online Shop
 
-teaser_img: /assets/images/projects/owl/owl.gif
+teaser_img: /assets/images/projects/owl/owl_wordmark.png
 thumb_img: /assets/images/projects/owl/thumb.jpg
 
 media:
   - url: /assets/images/projects/owl/04.jpg
     type: image
-    caption: 'Der Webshop von <a href="http://www.owloptics.com" target="_blank">Owl Optics</a>'
   - url: /assets/images/projects/owl/01.jpg
     type: image
   - url: /assets/images/projects/owl/02.jpg
