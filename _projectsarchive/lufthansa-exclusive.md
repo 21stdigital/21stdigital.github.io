@@ -6,7 +6,9 @@ service: Konzeption und Entwicklung App Publishing Framework, Gesamte technische
 constellation: Entwicklerteam // AppVantage, 21st digital
 teaser_img: /assets/images/projects/lhe/logo.png
 thumb_img: /assets/images/projects/lhe/thumb.jpg
+
 link: https://itunes.apple.com/us/app/lh-exclusive/id905259656?mt=8
+link_description: Apple App Store
 
 media:
   - url: /assets/images/projects/lhe/01.jpg
