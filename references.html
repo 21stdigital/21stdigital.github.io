@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<div class="container">
+
+
+   
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+            <p class="project-archive-text">
+                <h3>Projekte vor 21st digital</h3>
+                Vor der Gründung von 21st digital waren wir u.a an folgenden Projekten beteiligt:
+                <br/>
+                <br/>
+            </p>
+        </div>
+    </div>
+
+    
+
+    <div class="owl-carousel visible-xs-block" id="owl-project-archive">
+        {% for project in site.projectsav %}
+            <div class="project item project-case">
+                <div class="image-wrapper">
+                    <img src="{{ project.teaser_img}}" class="case-logo img-responsive" alt="{{ project.title }}"/>
+                </div>
+                <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
+                    <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
+                </a>
+                <div class="text">
+                    <!-- <h3>
+                      <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+                    </h3> -->
+                    <h5 class="text-center">{{ project.title }} </h5>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+   
+        {% for project in site.projectsav %}
+            {% if forloop.index == 1 %}
+                <div class="0 row project-cases hidden-xs">
+            {% endif %}
+            {% if forloop.index == 4 %}
+                <div class="4 row project-cases hidden-xs">
+            {% endif %}
+            {% if forloop.index == 7 %}
+                <div class="7 row project-cases hidden-xs">
+            {% endif %}
+        <div class="col-sm-4 project-case">
+            
+            
+            
+            <div class="text-center">
+                <div class="image-wrapper">
+                    <img src="{{ project.teaser_img}}" class="case-logo" alt="{{ project.title }}"/>
+                </div>
+                
+            </div>
+
+            <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
+                <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
+            </a>
+
+            <h5 class="text-center">{{ project.title }} </h5>
+            
+        </div>
+            {% if forloop.index == 3 %}
+                </div>
+            {% endif %}
+            {% if forloop.index == 6 %}
+                </div>
+            {% endif %}
+            {% if forloop.index == 9 %}
+                </div>
+            {% endif %}
+        {% endfor %}
+   
+
+</div>
+
+
+    

@@ -25,6 +25,8 @@ collections:
     output: true
   projectsarchive:
     output: true
+  projectsav:
+    output: true
 
 gems:
   - jekyll-sitemap
@@ -40,5 +42,11 @@ defaults:
     scope:
       path: ""
       type: "projectsarchive"
+    values:
+      sitemap: false      
+  -
+    scope:
+      path: ""
+      type: "projectsav"
     values:
       sitemap: false      
