@@ -7,8 +7,8 @@ constellation: 21st digital
 link: http://electronicbeats.net
 link_description: electronicbeats.net
 
-teaser_img: /assets/images/projects/swarmcompany/swarmcompany.png
-thumb_img: /assets/images/projects/swarmcompany/thumb.jpg
+teaser_img: /assets/images//projects/electronicbeats/electronicbeats.jpg
+thumb_img: /assets/images//projects/electronicbeats/thumb.jpg
 
 media:
   - url: /assets/images/projects/electronicbeats/01.jpg
@@ -25,6 +25,7 @@ media:
     type: image
   - url: /assets/images/projects/electronicbeats/07.jpg
     type: image
+
 
 ---
 
