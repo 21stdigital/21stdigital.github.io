@@ -4,6 +4,8 @@ title:  Social Media App
 technology: iOS, Android, Ruby on Rails, Amazon Web Services
 service: Gesamte technische Konzeption & Entwicklung
 constellation: 21st digital
+link: https://itunes.apple.com/de/app/swarmcompany-get-paid-to-share/id936682731?mt=8&uo=4
+link_description: Apple App Store
 
 teaser_img: /assets/images/projects/swarmcompany/swarmcompany.png
 thumb_img: /assets/images/projects/swarmcompany/thumb.jpg
@@ -19,6 +21,7 @@ media:
     type: image
   - url: /assets/images/projects/swarmcompany/05.jpg
     type: image
+
 
 ---
 

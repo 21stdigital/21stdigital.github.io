@@ -1,5 +1,5 @@
 ---
-title: Projekte 
+title: Projekte
 index: 2
 parallaxEnabled: true
 parallaxImage: /assets/images/projects_bg.jpg
@@ -9,17 +9,20 @@ parallaxBottom: true
 
 <div class="container">
 
-
     <div class="row">
         <div class="col-sm-12 col-md-8 col-md-offset-2">
             <p class="project-archive-text">
-                Obwohl 21st digital erst seit Mitte 2014 existiert, konnten wir bereits einige interssante und spannende Projekte umsetzen:
+                <h3>Aktuelle Projekte</h3>
+                Wir haben unsere langjährige Erfahrung und Kompetenz in 21st digital gebündelt. Gemeinsam sind wir erfolgreich durchgestartet und haben in 2014 u.a. folgende interessante und spannende Projekte umgesetzt:
+                <br/>
+                <br/>
             </p>
         </div>
     </div>
 
     <div class="owl-carousel visible-xs-block" id="owl-projects">
-        {% for project in site.projects %}
+
+        {% for project in site.projects reversed %}
         <div class="project item project-case">
             <div class="image-wrapper">
                 <img src="{{ project.teaser_img}}" class="case-logo" alt="{{ project.title }}"/>
@@ -28,17 +31,17 @@ parallaxBottom: true
                 <img src="{{ project.thumb_img}}" class="img-responsive" alt="{{ project.title }}"/>
             </a>
             <div class="text">
-                
-                
+
+
                 <h5 class="text-center">{{ project.title }} </h5>
                 <!-- <a href="{{ project.url | prepend: site.baseurl }}">weiterlesen</a> -->
             </div>
         </div>
         {% endfor %}
     </div>
-    
-        {% for project in site.projects %}
-            
+
+        {% for project in site.projects reversed %}
+
             {% if forloop.index == 1 %}
                 <div class="0 row project-cases hidden-xs">
             {% endif %}
@@ -54,7 +57,7 @@ parallaxBottom: true
                 <div class="image-wrapper">
                     <img src="{{ project.teaser_img}}" class="case-logo" alt="{{ project.title }}"/>
                 </div>
-                
+
             </div>
 
             <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
@@ -62,7 +65,7 @@ parallaxBottom: true
             </a>
 
             <h5 class="text-center">{{ project.title }} </h5>
-                
+
             </div>
 
             {% if forloop.index == 3 %}
@@ -75,21 +78,24 @@ parallaxBottom: true
                 </div>
             {% endif %}
         {% endfor %}
-    
 
 
-    
 
-   
+
+
+
     <div class="row">
         <div class="col-sm-12 col-md-8 col-md-offset-2">
             <p class="project-archive-text">
-                Vor der Gründung von 21st digital waren wir als Team an folgenden Projekten in verschiedenen Konstellationen beteiligt:
+                <h3>Projekte vor 21st digital</h3>
+                Vor der Gründung von 21st digital waren wir u.a an folgenden Projekten beteiligt:
+                <br/>
+                <br/>
             </p>
         </div>
     </div>
 
-    
+
 
     <div class="owl-carousel visible-xs-block" id="owl-project-archive">
         {% for project in site.projectsarchive %}
@@ -110,7 +116,7 @@ parallaxBottom: true
         {% endfor %}
     </div>
 
-   
+
         {% for project in site.projectsarchive %}
             {% if forloop.index == 1 %}
                 <div class="0 row project-cases hidden-xs">
@@ -122,14 +128,14 @@ parallaxBottom: true
                 <div class="7 row project-cases hidden-xs">
             {% endif %}
         <div class="col-sm-4 project-case">
-            
-            
-            
+
+
+
             <div class="text-center">
                 <div class="image-wrapper">
                     <img src="{{ project.teaser_img}}" class="case-logo" alt="{{ project.title }}"/>
                 </div>
-                
+
             </div>
 
             <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
@@ -137,7 +143,7 @@ parallaxBottom: true
             </a>
 
             <h5 class="text-center">{{ project.title }} </h5>
-            
+
         </div>
             {% if forloop.index == 3 %}
                 </div>
@@ -149,9 +155,9 @@ parallaxBottom: true
                 </div>
             {% endif %}
         {% endfor %}
-   
+
 
 </div>
 
 
-    
+
