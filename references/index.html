@@ -5,7 +5,7 @@ layout: default
 <div class="container">
 
 
-   
+
     <div class="row">
         <div class="col-sm-12 col-md-8 col-md-offset-2">
             <p class="project-archive-text">
@@ -17,7 +17,7 @@ layout: default
         </div>
     </div>
 
-    
+
 
     <div class="owl-carousel visible-xs-block" id="owl-project-archive">
         {% for project in site.projectsav %}
@@ -38,7 +38,7 @@ layout: default
         {% endfor %}
     </div>
 
-   
+
         {% for project in site.projectsav %}
             {% if forloop.index == 1 %}
                 <div class="0 row project-cases hidden-xs">
@@ -50,14 +50,14 @@ layout: default
                 <div class="7 row project-cases hidden-xs">
             {% endif %}
         <div class="col-sm-4 project-case">
-            
-            
-            
+
+
+
             <div class="text-center">
                 <div class="image-wrapper">
                     <img src="{{ project.teaser_img}}" class="case-logo" alt="{{ project.title }}"/>
                 </div>
-                
+
             </div>
 
             <a href="{{ project.url | prepend: site.baseurl }}" class="ajax cboxElement">
@@ -65,7 +65,7 @@ layout: default
             </a>
 
             <h5 class="text-center">{{ project.title }} </h5>
-            
+
         </div>
             {% if forloop.index == 3 %}
                 </div>
@@ -77,9 +77,9 @@ layout: default
                 </div>
             {% endif %}
         {% endfor %}
-   
+
 
 </div>
 
 
-    
+
