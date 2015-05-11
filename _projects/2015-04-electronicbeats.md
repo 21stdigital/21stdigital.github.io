@@ -2,7 +2,7 @@
 layout: project
 title:  Online Musik Magazin
 technology: Wordpress, PHP, MySQL, Javascript, AngularJS
-service: Gesamte technische Konzeption & Entwicklung sowie Maintain
+service: Gesamte technische Konzeption & Entwicklung sowie Maintenance
 constellation: 21st digital und We Are Fellows
 link: http://electronicbeats.net
 link_description: electronicbeats.net
