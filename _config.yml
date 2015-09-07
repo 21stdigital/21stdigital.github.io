@@ -5,6 +5,7 @@ email_fabian: fabian@21st.digital
 email_philip: philip@21st.digital
 email_andres: andres@21st.digital
 email_steffen: steffen@21st.digital
+email_roland: roland@21st.digital
 description: > # this means to ignore newlines until "baseurl:"
   Wir sind eine digitale Task-Force im Mobile- und Web-Bereich und entwickeln Software von der einfachen App und Website bis zum komplexen Anwendungssystem.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -43,10 +44,10 @@ defaults:
       path: ""
       type: "projectsarchive"
     values:
-      sitemap: false      
+      sitemap: false
   -
     scope:
       path: ""
       type: "projectsav"
     values:
-      sitemap: false      
+      sitemap: false
