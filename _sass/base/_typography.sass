@@ -5,7 +5,7 @@ body
     line-height: $line-height-default
     text-align: left
 
-%header 
+%header
     color: $color-primary
     font-family: $font-secondary
     font-weight: $font-weight-header
@@ -27,7 +27,7 @@ h2
     padding-bottom: 50px
     span
         @include respond-to(0, $xs-device-width)
-            font-size: 0.50em
+            font-size: 0.30em
         @include respond-to($xs-device-width, $sm-device-width)
             font-size: 0.75em
         @include respond-to($sm-device-width, $md-device-width)
@@ -56,7 +56,7 @@ p
     font-size: $font-size-p
 
 
-%default-link 
+%default-link
     color: $color-dark
     font-weight: bolder
 
@@ -68,7 +68,7 @@ a, a:link, a:visited
         font-weight: normal
 
 
-a:hover 
+a:hover
     @extend %default-link
     color: $color-highlight
 
@@ -80,7 +80,7 @@ a:active
 .nav
     li
         a, a:link, a:visited, a:active
-            font-weight: normal 
+            font-weight: normal
             text-transform: uppercase
 
 
