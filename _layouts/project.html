@@ -26,13 +26,27 @@
         </div>
     </div>
 
+    {% if page.awards %}
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+          <h3>Erfolge</h3>
+          <dl>
+            {% for award in page.awards %}
+              
+              <dd><a href="{{ award.url }}" target="_blank">{{ award.text }}</a></dd>
+            {% endfor %}
+          </dl>
+        </div>
+    </div>
+    {% endif %}
+
     <div class="row">
         <div class="col-sm-12 col-md-8 col-md-offset-2">
           <h3>Facts</h3>
           <dl>
             {% if page.link %}
             <dt>Link:</dt>
-            <dd><a href="{{ page.link }}">{{ page.link_description }}</a></dd>
+            <dd><a href="{{ page.link }}" target="_blank">{{ page.link_description }}</a></dd>
             {% endif %}
             <dt>Technologie:</dt>
             <dd>{{ page.technology }}</dd>

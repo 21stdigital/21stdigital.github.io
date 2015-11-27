@@ -7,6 +7,14 @@ constellation: 21st digital und We Are Fellows
 link: http://electronicbeats.net
 link_description: electronicbeats.net
 
+awards:
+  - url: http://meedia.de/2015/10/29/lead-awards-beef-ist-magazin-des-jahres-sz-zeitung-des-jahres
+    text: Lead Award 2015 - Web Magazin des Jahres
+  - url: http://www.econ-awards.de/beiträge/2015/electronic-beats
+    text: Econ Awards 2015 - Social-Media-Aktivitäten
+  - url: http://www.bcp-award.com/index.php/de/chronik/bcp-award-2015/best-crossmedia-solution
+    text: BCP Award 2015 - Best Crossmedia Solution
+
 teaser_img: /assets/images//projects/electronicbeats/electronicbeats.jpg
 thumb_img: /assets/images//projects/electronicbeats/thumb.jpg
 
