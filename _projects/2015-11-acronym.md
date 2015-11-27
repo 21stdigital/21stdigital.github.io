@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  Technical apparel brand 
+title:  Technical Apparel Brand 
 technology: Ruby on Rails, 
 service: Technical concept and realisation
 constellation: 21st digital and We Are Fellows
