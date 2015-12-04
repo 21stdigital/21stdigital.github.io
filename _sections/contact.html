@@ -8,18 +8,19 @@ parallaxSpeed: 0.2
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 col-md-8 col-md-offset-2 text-center">
+        <div class="col-sm-12 col-md-8 col-md-offset-2 text-center"  itemscope itemtype="http://schema.org/Organization">
 
             <p>
                 Interesse, Fragen oder einfach "Hallo" sagen?<br>
                 Schreib' uns oder komm' einfach bei uns im Oberhafen vorbei.
             </p>
-            <address>
+            <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <div class="icon">
                     <span class="glyphicon glyphicon glyphicon glyphicon-map-marker" aria-hidden="true"></span>
                 </div>
-                <p>Oberhafenstraße 1<br>
-                20097 Hamburg<br>
+                <span class="sr-only" itemprop="name">21st digital GmbH</span>
+                <p><span itemprop="streetAddress">Oberhafenstraße 1</span><br>
+                <span itemprop="postalCode">20097</span><span itemprop="addressLocality">Hamburg</span><br>
                 <a href="https://www.google.de/maps/place/21st+digital/@53.545801,10.007684,17z/data=!3m1!4b1!4m2!3m1!1s0x47b18efb36806899:0xc1f24a12b55c7520">Google Maps</a>
                 </p>
 
@@ -27,7 +28,7 @@ parallaxSpeed: 0.2
                     <span class="glyphicon glyphicon glyphicon-earphone" aria-hidden="true"></span>
                 </div>
                 <p>
-                    +49 40 361 683 30
+                    <span itemprop="telephone">+49 40 361 683 30</span>
                 </p>
 
                 <div class="icon">
@@ -35,8 +36,21 @@ parallaxSpeed: 0.2
                 </div>
 
                 <p>
-                    <a class="mailto" href="mailto:{{ site.email }}">{{ site.email }}</a>
+                    <a class="mailto" href="mailto:{{ site.email }}" itemprop="email">{{ site.email }}</a>
                 </p>
+
+                <span class="sr-only" itemprop="description">
+                    <p>
+                        Wir entwickeln innovative Lösungen für den Mobile- und Web-Bereich. Ausgehend von einer Idee erstellen wir schlanke und pragmatische Konzepte, die wir dann agil und komplett aus einer Hand umsetzen.
+                    </p>
+                    <p>
+                        Unsere Lösungen sind praxisnah und nachhaltig, denn unsere erfahrenen Entwickler sprechen direkt mit unseren Kunden. Das funktioniert, weil wir nicht "IT" sondern "Deutsch" sprechen, ohne Fachjargon.
+                    </p>
+
+                    <p>
+                        Als digitale Spezialeinheit haben wir ein klares Ziel: Wir machen unsere Kunden erfolgreicher. Dafür setzen wir agile Methoden, modernste Technologien, und vor allem unsere ganze Leidenschaft für effiziente Softwarelösungen ein.
+                    </p>
+                </span>
             </address>
         </div>
     </div>
